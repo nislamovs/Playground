@@ -24,9 +24,9 @@
 
     <!-- Definition for developer bean -->
     <bean id="developer" class="com.example.aspects.Developer">
-        <property name="name"  value="Proselyte" />
-        <property name="specialty"  value="Java Developer" />
-        <property name="experience"  value="3" />
+        <property name="name"  value="John Smith" />
+        <property name="specialty"  value="Das Developer" />
+        <property name="experience"  value="10" />
     </bean>
 
     <!-- Here we define logging aspect -->
