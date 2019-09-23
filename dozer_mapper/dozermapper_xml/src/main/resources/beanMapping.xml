@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.example.dozermapper.beans.Developer</class-a>
+        <class-b>com.example.dozermapper.beans.Citizen</class-b>
+        <field>
+            <a>name</a>
+            <b>firstname</b>
+        </field>
+        <field>
+            <a>surname</a>
+            <b>lastname</b>
+        </field>
+        <field>
+            <a>age</a>
+            <b>age</b>
+        </field>
+        <field>
+            <a>speciality</a>
+            <b>profession</b>
+        </field>
+        <field>
+            <a>experience</a>
+            <b>experience</b>
+        </field>
+        <field>
+            <a>salary</a>
+            <b>salary</b>
+        </field>
+    </mapping>
+</mappings>

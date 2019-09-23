@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.8.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+	//Lombok
+	compileOnly           "org.projectlombok:lombok:1.16.2"
+	implementation        "org.projectlombok:lombok:1.16.2"
+	testCompileOnly       "org.projectlombok:lombok:1.16.2"
+	annotationProcessor   "org.projectlombok:lombok:1.16.2"
+
+	//Tests
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation "net.sf.dozer:dozer:5.5.1"
+}
