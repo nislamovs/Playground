@@ -8,7 +8,10 @@ import com.orika.orikaexample.domain.test3.Dest3;
 import com.orika.orikaexample.domain.test3.Source3;
 import com.orika.orikaexample.domain.test4.Dest4;
 import com.orika.orikaexample.domain.test4.Source4;
+import com.orika.orikaexample.domain.test5.Dest5;
+import com.orika.orikaexample.domain.test5.Source5;
 import ma.glasnost.orika.MapperFacade;
+import ma.glasnost.orika.MapperFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,11 +23,15 @@ import java.util.Date;
 import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/v1/")
 public class Controller {
 
-    @Autowired
-    MapperFacade mapper;
+    final MapperFacade mapper;
+
+    public Controller(MapperFacade mapper) {
+        this.mapper = mapper;
+    }
+
 
     //Forward conversion
     @GetMapping("test")
@@ -65,6 +72,16 @@ public class Controller {
         Dest4 dest4 = mapper.map(src4, Dest4.class);
         System.out.println(dest4);
         return ok(dest4);
+    }
+
+    //Different data types conversion [object to object]
+    @GetMapping("test5")
+    public ResponseEntity<?> test5() {
+        Source5 src5 = Source5.builder().age(1022).name("vasja").email("asdas@asdasd.ff   test5").build();
+        Dest5 dest5 = new Dest5();
+        mapper.map(src5, dest5);
+        System.out.println(dest5);
+        return ok(dest5);
     }
 
 }
