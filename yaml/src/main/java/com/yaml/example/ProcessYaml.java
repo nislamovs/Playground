@@ -24,7 +24,9 @@ public class ProcessYaml {
     }
 
     public static void presetBookDataCollection() {
-        System.out.println(">>>>>>>>>>>>.    "+ books);
+//        System.out.println(">>>>>>>>>>>>.    "+ books);
+
+        books.forEach(book -> System.out.println(book.getIsFailed()));
 
     }
 }

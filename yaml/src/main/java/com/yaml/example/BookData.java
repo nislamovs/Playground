@@ -37,6 +37,8 @@ public class BookData {
 
     private Money internalPrice;
 
+    private Boolean isFailed;
+
     public static enum Subject { MANAGEMENT, SOFTWARE_DEVELOPMENT, PSYCHOLOGY, SCIENCE, ENGINEERING, MEDICINE, PHARMACOLOGY, KIDS, SPORT }
 
     public static enum Language { EN, LV, RU, DE, FR }

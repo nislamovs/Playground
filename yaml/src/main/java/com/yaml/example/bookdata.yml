@@ -9,9 +9,10 @@ books:
     copyrightYear: 2015
     language: EN
     totalCount: 20
-    availableCount: 20
+    availableCount: 10
     popularityRate: 3.5
     internalPrice: EUR 12.65
+    isFailed: true
 
   - bookId: 2
     bookTitle: Management theory and practice
@@ -26,3 +27,4 @@ books:
     availableCount: 20
     popularityRate: 3.5
     internalPrice: EUR 12.65
+    isFailed: false
