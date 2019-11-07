@@ -7,12 +7,17 @@ books:
     annotation: " The 8th edition of Management: Theory and Practice follows the same much-admired style developed by Gerald Cole with short, succinct chapters covering all aspects of management theory and practice commonly taught on undergraduate courses. This new edition brings an increased focus on real world examples of management in practice with the introduction of vignettes. Skills sheets and a running case study are also new features, which will help students put what they have learned into practice."
     description: " x, 637 lpp. : ilustrācijas ; 26 cm "
     copyrightYear: 2015
+    pubYear: 2014/03/10
     language: EN
     totalCount: 20
     availableCount: 10
     popularityRate: 3.5
     internalPrice: EUR 12.65
     isFailed: true
+    additionaldata:
+       name:  "vasjok"
+       nickname: "asdad 23423423"
+       role: "ADMIN"
 
   - bookId: 2
     bookTitle: Management theory and practice
@@ -22,9 +27,14 @@ books:
     annotation: " The 8th edition of Management: Theory and Practice follows the same much-admired style developed by Gerald Cole with short, succinct chapters covering all aspects of management theory and practice commonly taught on undergraduate courses. This new edition brings an increased focus on real world examples of management in practice with the introduction of vignettes. Skills sheets and a running case study are also new features, which will help students put what they have learned into practice."
     description: " x, 637 lpp. : ilustrācijas ; 26 cm"
     copyrightYear: 2015
+    pubYear: 2019/03/10
     language: EN
     totalCount: 20
     availableCount: 20
     popularityRate: 3.5
     internalPrice: EUR 12.65
     isFailed: false
+    additionaldata:
+       name: "DEN4IK"
+       nickname: "Aleppo 666"
+       role: "USER"

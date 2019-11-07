@@ -1,8 +1,10 @@
 package com.yaml.example;
 
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
+import org.springframework.core.ResolvableType;
 import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.env.PropertySource;
+import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 import org.springframework.lang.Nullable;
@@ -24,6 +26,7 @@ public class YamlPropertySourceFactory implements PropertySourceFactory {
         try {
             YamlPropertiesFactoryBean factory = new YamlPropertiesFactoryBean();
             factory.setResources(resource.getResource());
+            System.out.println(">>>>   "+ factory.getObject());
             factory.afterPropertiesSet();
             return factory.getObject();
         } catch (IllegalStateException e) {
