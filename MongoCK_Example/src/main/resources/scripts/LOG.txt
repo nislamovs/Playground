@@ -1,0 +1,3230 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "ESuSAgAAQBAJ",
+   "etag": "p9gGXg4LTPo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ESuSAgAAQBAJ",
+   "volumeInfo": {
+    "title": "Safeguarding Cultural Properties",
+    "subtitle": "Security for Museums, Libraries, Parks, and Zoos",
+    "authors": [
+     "Stevan P. Layne"
+    ],
+    "publisher": "Butterworth-Heinemann",
+    "publishedDate": "2014-04-01",
+    "description": "Safeguarding Cultural Properties is a step-by-step guide for creating and maintaining a comprehensive security program in any cultural facility or public institution. Author Stevan P. Layne, the leading expert in the field of cultural property protection, draws from his many years of experience providing protection training and planning to more than 350 cultural and public institutions around the world. Designed especially for those with limited security budgets, the book provides a proven and effective program for hiring the right security personnel, selecting the appropriate electronic security systems, and coordinating critical emergency response, along with all the other security issues unique to the needs of a cultural institution. For individuals responsible for the protection of the people, assets, and collections, Safeguarding Cultural Properties saves time and money by providing the essential resources needed for creating a short- and long-term protection plan. The only how-to manual written specifically for security managers of museums, libraries, zoos, and other public and private historic sites Suitable for both large and small cultural institutions, it covers topics such as personnel security, fire protection, physical security, emergency response, theft protection, and more Provides actionable, cost-effective solutions for institutions with limited security budgets and resources",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124201804"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124201806"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 160,
+    "printType": "BOOK",
+    "categories": [
+     "Political Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.6.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ESuSAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ESuSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=ESuSAgAAQBAJ&printsec=frontcover&dq=isbn:9780124201804&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=ESuSAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ESuSAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.13,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 32.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=ESuSAgAAQBAJ&rdid=book-ESuSAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.713E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Safeguarding_Cultural_Properties-sample-epub.acsm?id=ESuSAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Safeguarding_Cultural_Properties-sample-pdf.acsm?id=ESuSAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ESuSAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Designed especially for those with limited security budgets, the book provides a proven and effective program for hiring the right security personnel, selecting the appropriate electronic security systems, and coordinating critical ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "ZMcSBAAAQBAJ",
+   "etag": "NX51hzYaguI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZMcSBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Introduction to Social Media Investigation",
+    "subtitle": "A Hands-on Approach",
+    "authors": [
+     "Jennifer Golbeck"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2015-03-14",
+    "description": "If you’re interested in using social media as an investigative tool, Introduction to Social Media Investigation will show you how! Social networks and social media, like Facebook, Twitter, and Foursquare, are some of the most popular services on the Web, with hundreds of millions of users. The public information that people share on these sites can be valuable for anyone interested in investigating people of interest through open, public sources. Social media as an investigative device is in its infancy and not well understood. This book presents an overview of social media and discusses special skills and techniques to use when conducting investigations. The book features hands-on tutorials and case studies and offers additional data-gathering techniques. Presents an overview of social media sites, information types, privacy policies, and other general issues relevant to investigating individuals online Discusses the special skills and techniques needed when conducting investigations using social media Includes hands-on tutorials and case studies using Facebook, LinkedIn, Twitter, and other social media sites using proven investigative techniques Shows how to gather additional data using advanced techniques such as crowdsourcing, data mining, and network analysis",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128018026"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "012801802X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 306,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZMcSBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZMcSBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=ZMcSBAAAQBAJ&printsec=frontcover&dq=isbn:9780128018026&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=ZMcSBAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZMcSBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 51.97,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 36.38,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=ZMcSBAAAQBAJ&rdid=book-ZMcSBAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.197E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.638E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Introduction_to_Social_Media_Investigati-sample-epub.acsm?id=ZMcSBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Introduction_to_Social_Media_Investigati-sample-pdf.acsm?id=ZMcSBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ZMcSBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book presents an overview of social media and discusses special skills and techniques to use when conducting investigations. The book features hands-on tutorials and case studies and offers additional data-gathering techniques."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "GR2kAwAAQBAJ",
+   "etag": "IOB85W52sww",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/GR2kAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Cyber Crime and Cyber Terrorism Investigator's Handbook",
+    "authors": [
+     "Babak Akhgar",
+     "Andrew Staniforth",
+     "Francesca Bosco"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2014-07-16",
+    "description": "Cyber Crime and Cyber Terrorism Investigator’s Handbook is a vital tool in the arsenal of today’s computer programmers, students, and investigators. As computer networks become ubiquitous throughout the world, cyber crime, cyber terrorism, and cyber war have become some of the most concerning topics in today’s security landscape. News stories about Stuxnet and PRISM have brought these activities into the public eye, and serve to show just how effective, controversial, and worrying these tactics can become. Cyber Crime and Cyber Terrorism Investigator’s Handbook describes and analyzes many of the motivations, tools, and tactics behind cyber attacks and the defenses against them. With this book, you will learn about the technological and logistic framework of cyber crime, as well as the social and legal backgrounds of its prosecution and investigation. Whether you are a law enforcement professional, an IT specialist, a researcher, or a student, you will find valuable insight into the world of cyber crime and cyber warfare. Edited by experts in computer security, cyber investigations, and counter-terrorism, and with contributions from computer researchers, legal experts, and law enforcement professionals, Cyber Crime and Cyber Terrorism Investigator’s Handbook will serve as your best reference to the modern world of cyber crime. Written by experts in cyber crime, digital investigations, and counter-terrorism Learn the motivations, tools, and tactics used by cyber-attackers, computer security professionals, and investigators Keep up to date on current national and international law regarding cyber crime and cyber terrorism See just how significant cyber crime has become, and how important cyber law enforcement is in the modern world",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128008119"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0128008113"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 306,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=GR2kAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=GR2kAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=GR2kAwAAQBAJ&printsec=frontcover&dq=isbn:9780128008119&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=GR2kAwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GR2kAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.13,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 32.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=GR2kAwAAQBAJ&rdid=book-GR2kAwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.713E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Cyber_Crime_and_Cyber_Terrorism_Investig-sample-epub.acsm?id=GR2kAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Cyber_Crime_and_Cyber_Terrorism_Investig-sample-pdf.acsm?id=GR2kAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=GR2kAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With this book, you will learn about the technological and logistic framework of cyber crime, as well as the social and legal backgrounds of its prosecution and investigation."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "SyakgDWkhCoC",
+   "etag": "cFYHxhVDU/g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/SyakgDWkhCoC",
+   "volumeInfo": {
+    "title": "Federal Cloud Computing",
+    "subtitle": "The Definitive Guide for Cloud Service Providers",
+    "authors": [
+     "Matthew Metheny"
+    ],
+    "publisher": "Newnes",
+    "publishedDate": "2012-12-31",
+    "description": "Federal Cloud Computing: The Definitive Guide for Cloud Service Providers offers an in-depth look at topics surrounding federal cloud computing within the federal government, including the Federal Cloud Computing Strategy, Cloud Computing Standards, Security and Privacy, and Security Automation. You will learn the basics of the NIST risk management framework (RMF) with a specific focus on cloud computing environments, all aspects of the Federal Risk and Authorization Management Program (FedRAMP) process, and steps for cost-effectively implementing the Assessment and Authorization (A&A) process, as well as strategies for implementing Continuous Monitoring, enabling the Cloud Service Provider to address the FedRAMP requirement on an ongoing basis. Provides a common understanding of the federal requirements as they apply to cloud computing Provides a targeted and cost-effective approach for applying the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) Provides both technical and non-technical perspectives of the Federal Assessment and Authorization (A&A) process that speaks across the organization",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781597497398"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1597497398"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 448,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.5.5.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=SyakgDWkhCoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=SyakgDWkhCoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=SyakgDWkhCoC&printsec=frontcover&dq=isbn:9781597497398&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=SyakgDWkhCoC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SyakgDWkhCoC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 55.6,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 38.92,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=SyakgDWkhCoC&rdid=book-SyakgDWkhCoC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.56E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.892E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Federal_Cloud_Computing-sample-epub.acsm?id=SyakgDWkhCoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Federal_Cloud_Computing-sample-pdf.acsm?id=SyakgDWkhCoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=SyakgDWkhCoC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Federal Cloud Computing: The Definitive Guide for Cloud Service Providers offers an in-depth look at topics surrounding federal cloud computing within the federal government, including the Federal Cloud Computing Strategy, Cloud Computing ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "dmTryh19jpEC",
+   "etag": "GsTqbhliTl4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dmTryh19jpEC",
+   "volumeInfo": {
+    "title": "The Wireshark Field Guide",
+    "subtitle": "Analyzing and Troubleshooting Network Traffic",
+    "authors": [
+     "Robert Shimonski"
+    ],
+    "publisher": "Newnes",
+    "publishedDate": "2013-05-14",
+    "description": "The Wireshark Field Guide provides hackers, pen testers, and network administrators with practical guidance on capturing and interactively browsing computer network traffic. Wireshark is the world's foremost network protocol analyzer, with a rich feature set that includes deep inspection of hundreds of protocols, live capture, offline analysis and many other features. The Wireshark Field Guide covers the installation, configuration and use of this powerful multi-platform tool. The book give readers the hands-on skills to be more productive with Wireshark as they drill down into the information contained in real-time network traffic. Readers will learn the fundamentals of packet capture and inspection, the use of color codes and filters, deep analysis, including probes and taps, and much more. The Wireshark Field Guide is an indispensable companion for network technicians, operators, and engineers. Learn the fundamentals of using Wireshark in a concise field manual Quickly create functional filters that will allow you to get to work quickly on solving problems Understand the myriad of options and the deep functionality of Wireshark Solve common network problems Learn some advanced features, methods and helpful ways to work more quickly and efficiently",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124104969"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124104967"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 128,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=dmTryh19jpEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=dmTryh19jpEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=dmTryh19jpEC&printsec=frontcover&dq=isbn:9780124104969&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=dmTryh19jpEC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dmTryh19jpEC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 33.82,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 23.67,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=dmTryh19jpEC&rdid=book-dmTryh19jpEC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.382E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.367E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Wireshark_Field_Guide-sample-epub.acsm?id=dmTryh19jpEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Wireshark_Field_Guide-sample-pdf.acsm?id=dmTryh19jpEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=dmTryh19jpEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Wireshark Field Guide provides hackers, pen testers, and network administrators with practical guidance on capturing and interactively browsing computer network traffic."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "Bt-oBAAAQBAJ",
+   "etag": "5XcmbwFydqs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Bt-oBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Securing the Outdoor Construction Site",
+    "subtitle": "Strategy, Prevention, and Mitigation",
+    "authors": [
+     "Kevin Wright Carney"
+    ],
+    "publisher": "Butterworth-Heinemann",
+    "publishedDate": "2015-09-21",
+    "description": "Securing the Outdoor Construction Site: Strategy, Prevention, and Mitigation offers a holistic view of security planning for vulnerable capital projects, providing the strategic and tactical plans needed to protect large areas with a minimum investment in personnel and equipment. This book is a one-stop reference that provides effective security strategies, methods, and tactics to mitigate the theft of equipment and how to avoid these incidents altogether. In addition, the book outlines the true costs of construction site theft to organizations in terms of lost time, equipment, and brand reputation, along with increased insurance premiums and danger to personnel. It lists the types of theft that regularly occur at sites, explores their underlying causes, and documents their worldwide financial significance. Finally, readers will learn how to conduct a construction site survey with loss prevention in mind, and how to budget for the unexpected. Provides complete guidelines for implementing a loss prevention program for any large outdoor construction project Offers proven strategies for minimizing capital loss and costly delays using a minimum number of personnel and security technologies Demonstrates how to develop proactive partnerships with law enforcement to stop theft before it occurs Includes the latest data on outdoor construction theft and its impact Draws on case studies and examples from around the world",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128026021"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0128026022"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 276,
+    "printType": "BOOK",
+    "categories": [
+     "Architecture"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.4.5.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Bt-oBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Bt-oBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=Bt-oBAAAQBAJ&printsec=frontcover&dq=isbn:9780128026021&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Bt-oBAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Bt-oBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 51.97,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 36.38,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=Bt-oBAAAQBAJ&rdid=book-Bt-oBAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.197E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.638E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Securing_the_Outdoor_Construction_Site-sample-epub.acsm?id=Bt-oBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Securing_the_Outdoor_Construction_Site-sample-pdf.acsm?id=Bt-oBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Bt-oBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book is a one-stop reference that provides effective security strategies, methods, and tactics to mitigate the theft of equipment and how to avoid these incidents altogether."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "UVPgBAAAQBAJ",
+   "etag": "KMpK02yY1xc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UVPgBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Marine Shrimp Culture",
+    "subtitle": "Principles and Practices",
+    "authors": [
+     "A.W. Fast",
+     "L.J. Lester"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2013-10-22",
+    "description": "The commercial culture of marine shrimp in tropical areas has grown at a phenomenal rate during the last 10 to 15 years. This book provides a description of principles and practices of shrimp culture at one point in time and documents both historical events and conditions now. It also tries to look into the future. The volume provides both practical information about shrimp culture, as well as basic information on shrimp biology. It should be of value to researchers, consultant practitioners and potential investors in the marine shrimp culture industry.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781483291048"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1483291049"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 879,
+    "printType": "BOOK",
+    "categories": [
+     "Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UVPgBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UVPgBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=UVPgBAAAQBAJ&printsec=frontcover&dq=isbn:9781483291048&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=UVPgBAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UVPgBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 85.85,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 60.09,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=UVPgBAAAQBAJ&rdid=book-UVPgBAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8.585E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 6.009E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Marine_Shrimp_Culture-sample-pdf.acsm?id=UVPgBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=UVPgBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book provides a description of principles and practices of shrimp culture at one point in time and documents both historical events and conditions now. It also tries to look into the future."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 0
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "aMlaDwAAQBAJ",
+   "etag": "mzUZJZgXJBM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/aMlaDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Changing the Indian Economy",
+    "subtitle": "Renewal, Reform and Revival",
+    "authors": [
+     "Rama P. Kanungo",
+     "Chris Rowley",
+     "Anurag N. Banerjee"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2018-05-31",
+    "description": "Changing the Indian Economy: Renewal, Reform and Revival explores the fact that post-Modi India is witnessing unprecedented socioeconomic change, truly labeled as Modi’s Mantra and his attempts to morph the Indian economic landscape. India is using an intelligent economic process for its renewal and growth, however, in a recent study by Nomura, 2016, The Japanese Financial Services firm, it is reported that there is downside risk to India’s baseline forecast of 7.8 per cent GDP growth in 2016. Although the report suggests that there was a mid-cycle consolidation in mid-2014, the recovery seems to be losing momentum. This book offers a novel, but inclusive outlook to the entire post-Modi economic overhaul. Offers a comprehensive narrative of the current economic scene in India Explores how the measures for reform are intelligent, while also considering their weaknesses Shows how India has a strong potential to grow amidst diversity of economic reforms and changing governance Includes a compilation of insightful articles on Indian economic reform and future prospects",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780081020142"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0081020147"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 184,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=aMlaDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=aMlaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=aMlaDwAAQBAJ&printsec=frontcover&dq=isbn:9780081020142&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=aMlaDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aMlaDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 148.83,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 104.18,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=aMlaDwAAQBAJ&rdid=book-aMlaDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.4883E8,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.0418E8,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Changing_the_Indian_Economy-sample-epub.acsm?id=aMlaDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Changing_the_Indian_Economy-sample-pdf.acsm?id=aMlaDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=aMlaDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Although the report suggests that there was a mid-cycle consolidation in mid-2014, the recovery seems to be losing momentum. This book offers a novel, but inclusive outlook to the entire post-Modi economic overhaul."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "p8GrXpJfg2wC",
+   "etag": "PfkrjMNAI/U",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/p8GrXpJfg2wC",
+   "volumeInfo": {
+    "title": "Coding for Penetration Testers",
+    "subtitle": "Building Better Tools",
+    "authors": [
+     "Jason Andress",
+     "Ryan Linn"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2011-11-04",
+    "description": "Coding for Penetration Testers discusses the use of various scripting languages in penetration testing. The book presents step-by-step instructions on how to build customized penetration testing tools using Perl, Ruby, Python, and other languages. It also provides a primer on scripting including, but not limited to, Web scripting, scanner scripting, and exploitation scripting. It guides the student through specific examples of custom tool development that can be incorporated into a tester's toolkit as well as real-world scenarios where such tools might be used. This book is divided into 10 chapters that explores topics such as command shell scripting; Python, Perl, and Ruby; Web scripting with PHP; manipulating Windows with PowerShell; scanner scripting; information gathering; exploitation scripting; and post-exploitation scripting. This book will appeal to penetration testers, information security practitioners, and network and system administrators. Discusses the use of various scripting languages in penetration testing Presents step-by-step instructions on how to build customized penetration testing tools using Perl, Ruby, Python, and other languages Provides a primer on scripting including, but not limited to, Web scripting, scanner scripting, and exploitation scripting",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781597497305"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1597497304"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "4.7.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=p8GrXpJfg2wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=p8GrXpJfg2wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=p8GrXpJfg2wC&printsec=frontcover&dq=isbn:9781597497305&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=p8GrXpJfg2wC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p8GrXpJfg2wC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 38.66,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 27.06,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=p8GrXpJfg2wC&rdid=book-p8GrXpJfg2wC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.866E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.706E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Coding_for_Penetration_Testers-sample-epub.acsm?id=p8GrXpJfg2wC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Coding_for_Penetration_Testers-sample-pdf.acsm?id=p8GrXpJfg2wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=p8GrXpJfg2wC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book is divided into 10 chapters that explores topics such as command shell scripting; Python, Perl, and Ruby; Web scripting with PHP; manipulating Windows with PowerShell; scanner scripting; information gathering; exploitation ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "3OiclLcGdTgC",
+   "etag": "K7h5Bo4/qAI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/3OiclLcGdTgC",
+   "volumeInfo": {
+    "title": "Nessus Network Auditing",
+    "authors": [
+     "Russ Rogers"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2011-10-13",
+    "description": "The Updated Version of the Bestselling Nessus Book. This is the ONLY Book to Read if You Run Nessus Across the Enterprise. Ever since its beginnings in early 1998, the Nessus Project has attracted security researchers from all walks of life. It continues this growth today. It has been adopted as a de facto standard by the security industry, vendor, and practitioner alike, many of whom rely on Nessus as the foundation to their security practices. Now, a team of leading developers have created the definitive book for the Nessus community. Perform a Vulnerability Assessment Use Nessus to find programming errors that allow intruders to gain unauthorized access. Obtain and Install Nessus Install from source or binary, set up up clients and user accounts, and update your plug-ins. Modify the Preferences Tab Specify the options for Nmap and other complex, configurable components of Nessus. Understand Scanner Logic and Determine Actual Risk Plan your scanning strategy and learn what variables can be changed. Prioritize Vulnerabilities Prioritize and manage critical vulnerabilities, information leaks, and denial of service errors. Deal with False Positives Learn the different types of false positives and the differences between intrusive and nonintrusive tests. Get Under the Hood of Nessus Understand the architecture and design of Nessus and master the Nessus Attack Scripting Language (NASL). Scan the Entire Enterprise Network Plan for enterprise deployment by gauging network bandwith and topology issues. Nessus is the premier Open Source vulnerability assessment tool, and has been voted the \"most popular\" Open Source security tool several times. The first edition is still the only book available on the product. Written by the world's premier Nessus developers and featuring a foreword by the creator of Nessus, Renaud Deraison.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080558653"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0080558658"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 448,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.7.8.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=3OiclLcGdTgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=3OiclLcGdTgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=3OiclLcGdTgC&printsec=frontcover&dq=isbn:9780080558653&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=3OiclLcGdTgC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3OiclLcGdTgC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 55.6,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 38.92,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=3OiclLcGdTgC&rdid=book-3OiclLcGdTgC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.56E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.892E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Nessus_Network_Auditing-sample-epub.acsm?id=3OiclLcGdTgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Nessus_Network_Auditing-sample-pdf.acsm?id=3OiclLcGdTgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=3OiclLcGdTgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Updated Version of the Bestselling Nessus Book. This is the ONLY Book to Read if You Run Nessus Across the Enterprise."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "NiuSAgAAQBAJ",
+   "etag": "zWYcVpexZhg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/NiuSAgAAQBAJ",
+   "volumeInfo": {
+    "title": "The Manager's Handbook for Business Security",
+    "authors": [
+     "George Campbell"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2014-03-07",
+    "description": "The Manager’s Handbook for Business Security is designed for new or current security managers who want build or enhance their business security programs. This book is not an exhaustive textbook on the fundamentals of security; rather, it is a series of short, focused subjects that inspire the reader to lead and develop more effective security programs. Chapters are organized by topic so readers can easily—and quickly—find the information they need in concise, actionable, and practical terms. This book challenges readers to critically evaluate their programs and better engage their business leaders. It covers everything from risk assessment and mitigation to strategic security planning, information security, physical security and first response, business conduct, business resiliency, security measures and metrics, and much more. The Manager’s Handbook for Business Security is a part of Elsevier’s Security Executive Council Risk Management Portfolio, a collection of real world solutions and \"how-to\" guidelines that equip executives, practitioners, and educators with proven information for successful security and risk management programs. Chapters are organized by short, focused topics for easy reference Provides actionable ideas that experienced security executives and practitioners have shown will add value to the business and make the manager a more effective leader Takes a strategic approach to managing the security program, including marketing the program to senior business leadership and aligning security with business objectives",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128002001"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "012800200X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 296,
+    "printType": "BOOK",
+    "categories": [
+     "Social Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=NiuSAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=NiuSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=NiuSAgAAQBAJ&printsec=frontcover&dq=isbn:9780128002001&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=NiuSAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NiuSAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 91.9,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 64.33,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=NiuSAgAAQBAJ&rdid=book-NiuSAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9.19E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 6.433E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Manager_s_Handbook_for_Business_Secu-sample-epub.acsm?id=NiuSAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Manager_s_Handbook_for_Business_Secu-sample-pdf.acsm?id=NiuSAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=NiuSAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book is not an exhaustive textbook on the fundamentals of security; rather, it is a series of short, focused subjects that inspire the reader to lead and develop more effective security programs."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "J4w-PsZco2MC",
+   "etag": "H0+6q5RflM8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/J4w-PsZco2MC",
+   "volumeInfo": {
+    "title": "Dictionary of Energy",
+    "authors": [
+     "Cutler J. Cleveland",
+     "Christopher G. Morris"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2005-11-15",
+    "description": "At a time when the topic of energy prices, resources and environmental impacts are at the forefront of news stories and political discussions, we are pleased to announce the publication of the exciting new Dictionary of Energy. This authoritative resource, called \"an essential reference for energy researchers\" by Mark Jaccard, Director of the Energy and Materials Research Group at Simon Fraser University, covers all aspects of energy and its role in society. * Over 8,000 definitions spanning 40 scientific disciplines * More than 100 'window essays' written by experts, and covering topics of particular scientific, historical or social significance * Over 150 photos and illustrations Co-edited by Cutler J. Cleveland, the Editor-in-Chief of the widely-acclaimed Encyclopedia of Energy, and Christopher Morris, the Editor of the award-winning Academic Press Dictionary of Science and Technology. In a single volume this unique work provides a comprehensive and organized body of knowledge on what is certain to become an increasingly vital area of scientific study in the 21st century. • Contains over 8,000 clear and concise definitions on virtually every topic in energy, organised in 40 key subject areas • Includes more than 100 mini-essays on subjects of particularly topical interest • Compiled with expert input and advice from a board of outstanding scientists and leaders in the energy field",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0080457231"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080457239"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 512,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.5.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=J4w-PsZco2MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=J4w-PsZco2MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=J4w-PsZco2MC&printsec=frontcover&dq=isbn:9780080457239&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=J4w-PsZco2MC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=J4w-PsZco2MC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 99.16,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 69.41,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=J4w-PsZco2MC&rdid=book-J4w-PsZco2MC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9.916E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 6.941E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Dictionary_of_Energy-sample-pdf.acsm?id=J4w-PsZco2MC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=J4w-PsZco2MC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In a single volume this unique work provides a comprehensive and organized body of knowledge on what is certain to become an increasingly vital area of scientific study in the 21st century. • Contains over 8,000 clear and concise ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "ozOiBQAAQBAJ",
+   "etag": "N9U9+wXBDzo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ozOiBQAAQBAJ",
+   "volumeInfo": {
+    "title": "Innovation and Future Trends in Food Manufacturing and Supply Chain Technologies",
+    "authors": [
+     "Craig Leadley"
+    ],
+    "publisher": "Woodhead Publishing",
+    "publishedDate": "2015-11-18",
+    "description": "Innovation and Future Trends in Food Manufacturing and Supply Chain Technologies focuses on emerging and future trends in food manufacturing and supply chain technologies, examining the drivers of change and innovation in the food industry and the current and future ways of addressing issues such as energy reduction and rising costs in food manufacture. Part One looks at innovation in the food supply chain, while Part Two covers emerging technologies in food processing and packaging. Subsequent sections explore innovative food preservation technologies in themed chapters and sustainability and future research needs in food manufacturing. Addresses issues such as energy reduction and rising costs in food manufacture Assesses current supply chain technologies and the emerging advancements in the field, including key chapters on food processing technologies Covers the complete food manufacturing scale, compiling significant research from academics and important industrial figures",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781782424703"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1782424709"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 308,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ozOiBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ozOiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=ozOiBQAAQBAJ&printsec=frontcover&dq=isbn:9781782424703&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=ozOiBQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ozOiBQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 229.9,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 160.93,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=ozOiBQAAQBAJ&rdid=book-ozOiBQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.299E8,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.6093E8,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Innovation_and_Future_Trends_in_Food_Man-sample-epub.acsm?id=ozOiBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Innovation_and_Future_Trends_in_Food_Man-sample-pdf.acsm?id=ozOiBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ozOiBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Innovation and Future Trends in Food Manufacturing and Supply Chain Technologies focuses on emerging and future trends in food manufacturing and supply chain technologies, examining the drivers of change and innovation in the food industry ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "-EKbKzGQpfkC",
+   "etag": "+48y44PlNic",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-EKbKzGQpfkC",
+   "volumeInfo": {
+    "title": "Seven Deadliest Network Attacks",
+    "authors": [
+     "Stacy Prowell",
+     "Rob Kraus",
+     "Mike Borkin"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2010-06-02",
+    "description": "Seven Deadliest Network Attacks identifies seven classes of network attacks and discusses how the attack works, including tools to accomplish the attack, the risks of the attack, and how to defend against the attack. This book pinpoints the most dangerous hacks and exploits specific to networks, laying out the anatomy of these attacks including how to make your system more secure. You will discover the best ways to defend against these vicious hacks with step-by-step instruction and learn techniques to make your computer and network impenetrable. The book consists of seven chapters that deal with the following attacks: denial of service; war dialing; penetration testing; protocol tunneling; spanning tree attacks; man-in-the-middle; and password replay. These attacks are not mutually exclusive and were chosen because they help illustrate different aspects of network security. The principles on which they rely are unlikely to vanish any time soon, and they allow for the possibility of gaining something of interest to the attacker, from money to high-value data. This book is intended to provide practical, usable information. However, the world of network security is evolving very rapidly, and the attack that works today may (hopefully) not work tomorrow. It is more important, then, to understand the principles on which the attacks and exploits are based in order to properly plan either a network attack or a network defense. Seven Deadliest Network Attacks will appeal to information security professionals of all levels, network admins, and recreational hackers. Knowledge is power, find out about the most dominant attacks currently waging war on computers and networks globally Discover the best ways to defend against these vicious attacks; step-by-step instruction shows you how Institute countermeasures, don’t be caught defenseless again, and learn techniques to make your computer and network impenetrable",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781597495509"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1597495506"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 176,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "4.7.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-EKbKzGQpfkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-EKbKzGQpfkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=-EKbKzGQpfkC&printsec=frontcover&dq=isbn:9781597495509&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=-EKbKzGQpfkC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-EKbKzGQpfkC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 24.14,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 16.9,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=-EKbKzGQpfkC&rdid=book--EKbKzGQpfkC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.414E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.69E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Seven_Deadliest_Network_Attacks-sample-epub.acsm?id=-EKbKzGQpfkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Seven_Deadliest_Network_Attacks-sample-pdf.acsm?id=-EKbKzGQpfkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=-EKbKzGQpfkC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book is intended to provide practical, usable information. However, the world of network security is evolving very rapidly, and the attack that works today may (hopefully) not work tomorrow."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "v99bAwAAQBAJ",
+   "etag": "gMB/EytkyWU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/v99bAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Marketing Due Diligence",
+    "subtitle": "Reconnecting Strategy to Share Price",
+    "authors": [
+     "Malcolm McDonald",
+     "Keith Ward",
+     "Brian Smith"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2007-01-08",
+    "description": "The ultimate test of marketing investment, and indeed any investment, is whether it creates value for shareholders. But few marketing investments are evaluated from this perspective. Increasingly, boards of directors and city analysts the world over are dissatisfied with this lack of accountability. Cranfield School of Management has been addressing this problem by working with a range of blue-chip companies. They have created a new framework which shows how marketing systematically contributes to shareholder value based on three key questions- • Does the promised market exist? • Will the strategy deliver the market share promised? • Will the market share create shareholder value? This groundbreaking new book explains the principles and practice behind rigorous due diligence in marketing for Marketing and Finance Directors, CEOs, Strategists and MBA students wanting to understand the key drivers of modern business Surely, the time has come for marketing directors to take their rightful place in the boardroom by proving that what they are doing creates shareholder value added? * Connects marketing plans and investment to the valuation of the firm and how it can contribute to increasing shareholder value * Systematic and practical approach useful for both practitioners and students * New paperback edition",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080469560"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0080469566"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=v99bAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=v99bAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=v99bAwAAQBAJ&printsec=frontcover&dq=isbn:9780080469560&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.lv/books?id=v99bAwAAQBAJ&dq=isbn:9780080469560&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Marketing_Due_Diligence.html?hl=&id=v99bAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=v99bAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This groundbreaking new book explains the principles and practice behind rigorous due diligence in marketing for Marketing and Finance Directors, CEOs, Strategists and MBA students wanting to understand the key drivers of modern business ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "dHqLCwAAQBAJ",
+   "etag": "MmFZx1dT2vM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dHqLCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Taking the LEAP",
+    "subtitle": "The Methods and Tools of the Linked Engineering and Manufacturing Platform (LEAP)",
+    "authors": [
+     "Dimitris Kiritsis"
+    ],
+    "publisher": "Academic Press",
+    "publishedDate": "2016-06-20",
+    "description": "Taking the LEAP: The Methods and Tools of the Linked Engineering and Manufacturing Platform (LEAP) shows how to use the LEAP methodology to organize all product lifecycle information needed to drive engineering and manufacturing processes, and also provides knowledge exploitation solutions to support design decisions. This book not only explains in detail what LEAP is and how to use it, but also provides LEAP case studies from sectors such as auto manufacturing and offshore engineering. The intensity of competition in the global manufacturing industry has increased dramatically in the past decade, presenting challenges and opportunities to new operators and traditional centers alike. Using the latest ICT developments effectively is increasingly important in order to meet demands for mass customization, sustainability, and improved productivity. To achieve these goals, the Linked Engineering and manufacturing Platform (LEAP) was developed as an integrated information system for manufacturing design. Discusses how LEAP creates a new data environment for all stakeholders in the manufacturing industry, which will improve customization, sustainability, and productivity Devises an interoperability system to gather and coordinate digital data from machines and systems across the manufacturing supply chain Provides standards for the Internet of Things Includes case study data from companies at the cutting edge of ICT in manufacturing such as SAP, Volkswagen, and UBITECH",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780444637543"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0444637540"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 214,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=dHqLCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=dHqLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=dHqLCwAAQBAJ&printsec=frontcover&dq=isbn:9780444637543&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=dHqLCwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dHqLCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 130.68,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 91.48,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=dHqLCwAAQBAJ&rdid=book-dHqLCwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.3068E8,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 9.148E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Taking_the_LEAP-sample-epub.acsm?id=dHqLCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Taking_the_LEAP-sample-pdf.acsm?id=dHqLCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=dHqLCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book not only explains in detail what LEAP is and how to use it, but also provides LEAP case studies from sectors such as auto manufacturing and offshore engineering."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "qgYK_OObvlkC",
+   "etag": "/bI6BoM1tzs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/qgYK_OObvlkC",
+   "volumeInfo": {
+    "title": "Kismet Hacking",
+    "authors": [
+     "Frank Thornton",
+     "Michael J. Schearer",
+     "Brad Haines"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2008-08-08",
+    "description": "Kismet is the industry standard for examining wireless network traffic, and is used by over 250,000 security professionals, wireless networking enthusiasts, and WarDriving hobbyists. Unlike other wireless networking books that have been published in recent years that geared towards Windows users, Kismet Hacking is geared to those individuals that use the Linux operating system. People who use Linux and want to use wireless tools need to use Kismet. Now with the introduction of Kismet NewCore, they have a book that will answer all their questions about using this great tool. This book continues in the successful vein of books for wireless users such as WarDriving: Drive, Detect Defend. *Wardrive Running Kismet from the BackTrack Live CD *Build and Integrate Drones with your Kismet Server *Map Your Data with GPSMap, KisMap, WiGLE and GpsDrive",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0080558704"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080558707"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 272,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.3.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=qgYK_OObvlkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=qgYK_OObvlkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=qgYK_OObvlkC&printsec=frontcover&dq=isbn:9780080558707&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=qgYK_OObvlkC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qgYK_OObvlkC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 54.39,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 38.07,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=qgYK_OObvlkC&rdid=book-qgYK_OObvlkC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.439E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.807E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Kismet_Hacking-sample-epub.acsm?id=qgYK_OObvlkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Kismet_Hacking-sample-pdf.acsm?id=qgYK_OObvlkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=qgYK_OObvlkC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book continues in the successful vein of books for wireless users such as WarDriving: Drive, Detect Defend. *Wardrive Running Kismet from the BackTrack Live CD *Build and Integrate Drones with your Kismet Server *Map Your Data with ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "IfQqCgAAQBAJ",
+   "etag": "ceW4bVBvibo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/IfQqCgAAQBAJ",
+   "volumeInfo": {
+    "title": "Practical Deployment of Cisco Identity Services Engine (ISE)",
+    "subtitle": "Real-World Examples of AAA Deployments",
+    "authors": [
+     "Andy Richter",
+     "Jeremy Wood"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2015-11-12",
+    "description": "With the proliferation of mobile devices and bring-your-own-devices (BYOD) within enterprise networks, the boundaries of where the network begins and ends have been blurred. Cisco Identity Services Engine (ISE) is the leading security policy management platform that unifies and automates access control to proactively enforce role-based access to enterprise networks. In Practical Deployment of Cisco Identity Services Engine (ISE), Andy Richter and Jeremy Wood share their expertise from dozens of real-world implementations of ISE and the methods they have used for optimizing ISE in a wide range of environments. ISE can be difficult, requiring a team of security and network professionals, with the knowledge of many different specialties. Practical Deployment of Cisco Identity Services Engine (ISE) shows you how to deploy ISE with the necessary integration across multiple different technologies required to make ISE work like a system. Andy Richter and Jeremy Wood explain end-to-end how to make the system work in the real world, giving you the benefit of their ISE expertise, as well as all the required ancillary technologies and configurations to make ISE work.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128045046"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0128045043"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 298,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=IfQqCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=IfQqCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=IfQqCgAAQBAJ&printsec=frontcover&dq=isbn:9780128045046&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=IfQqCgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IfQqCgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 61.65,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 43.16,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=IfQqCgAAQBAJ&rdid=book-IfQqCgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6.165E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.316E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Practical_Deployment_of_Cisco_Identity_S-sample-epub.acsm?id=IfQqCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Practical_Deployment_of_Cisco_Identity_S-sample-pdf.acsm?id=IfQqCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=IfQqCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Andy Richter and Jeremy Wood explain end-to-end how to make the system work in the real world, giving you the benefit of their ISE expertise, as well as all the required ancillary technologies and configurations to make ISE work."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "OQswAAAAQBAJ",
+   "etag": "Sc/QJ+UMenA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/OQswAAAAQBAJ",
+   "volumeInfo": {
+    "title": "Data Stewardship",
+    "subtitle": "An Actionable Guide to Effective Data Management and Data Governance",
+    "authors": [
+     "David Plotkin"
+    ],
+    "publisher": "Newnes",
+    "publishedDate": "2013-09-16",
+    "description": "Data stewards in business and IT are the backbone of a successful data governance implementation because they do the work to make a company’s data trusted, dependable, and high quality. Data Stewardship explains everything you need to know to successfully implement the stewardship portion of data governance, including how to organize, train, and work with data stewards, get high-quality business definitions and other metadata, and perform the day-to-day tasks using a minimum of the steward’s time and effort. David Plotkin has loaded this book with practical advice on stewardship so you can get right to work, have early successes, and measure and communicate those successes, gaining more support for this critical effort. Provides clear and concise practical advice on implementing and running data stewardship, including guidelines on how to organize based on company structure, business functions, and data ownership Shows how to gain support for your stewardship effort, maintain that support over the long-term, and measure the success of the data stewardship effort and report back to management Includes detailed lists of responsibilities for each type of data steward and strategies to help the Data Governance Program Office work effectively with the data stewards",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124104457"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124104452"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 248,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=OQswAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=OQswAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=OQswAAAAQBAJ&printsec=frontcover&dq=isbn:9780124104457&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=OQswAAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OQswAAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.13,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 32.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=OQswAAAAQBAJ&rdid=book-OQswAAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.713E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Data_Stewardship-sample-epub.acsm?id=OQswAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Data_Stewardship-sample-pdf.acsm?id=OQswAAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=OQswAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "David Plotkin has loaded this book with practical advice on stewardship so you can get right to work, have early successes, and measure and communicate those successes, gaining more support for this critical effort."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "SD_LAwAAQBAJ",
+   "etag": "RysH12KxF18",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/SD_LAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Securing SQL Server",
+    "subtitle": "Protecting Your Database from Attackers",
+    "authors": [
+     "Denny Cherry"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2015-04-27",
+    "description": "SQL server is the most widely-used database platform in the world, and a large percentage of these databases are not properly secured, exposing sensitive customer and business data to attack. In Securing SQL Server, Third Edition, you will learn about the potential attack vectors that can be used to break into SQL server databases as well as how to protect databases from these attacks. In this book, Denny Cherry - a Microsoft SQL MVP and one of the biggest names in SQL server - will teach you how to properly secure an SQL server database from internal and external threats using best practices as well as specific tricks that the author employs in his role as a consultant for some of the largest SQL server deployments in the world. Fully updated to cover the latest technology in SQL Server 2014, this new edition walks you through how to secure new features of the 2014 release. New topics in the book include vLANs, setting up RRAS, anti-virus installs, key management, moving from plaintext to encrypted values in an existing application, securing Analysis Services Objects, Managed Service Accounts, OS rights needed by the DBA, SQL Agent Security, Table Permissions, Views, Stored Procedures, Functions, Service Broker Objects, and much more. Presents hands-on techniques for protecting your SQL Server database from intrusion and attack Provides the most in-depth coverage of all aspects of SQL Server database security, including a wealth of new material on Microsoft SQL Server 2014. Explains how to set up your database securely, how to determine when someone tries to break in, what the intruder has accessed or damaged, and how to respond and mitigate damage if an intrusion occurs.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128013755"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0128013753"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 462,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.4.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=SD_LAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=SD_LAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=SD_LAwAAQBAJ&printsec=frontcover&dq=isbn:9780128013755&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=SD_LAwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SD_LAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 43.5,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 30.45,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=SD_LAwAAQBAJ&rdid=book-SD_LAwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.35E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.045E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Securing_SQL_Server-sample-epub.acsm?id=SD_LAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Securing_SQL_Server-sample-pdf.acsm?id=SD_LAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=SD_LAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this book, Denny Cherry - a Microsoft SQL MVP and one of the biggest names in SQL server - will teach you how to properly secure an SQL server database from internal and external threats using best practices as well as specific tricks ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 0
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "7eMd-46wXdMC",
+   "etag": "hLAma92k8fs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/7eMd-46wXdMC",
+   "volumeInfo": {
+    "title": "Data Virtualization for Business Intelligence Systems",
+    "subtitle": "Revolutionizing Data Integration for Data Warehouses",
+    "authors": [
+     "Rick van der Lans"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2012-07-25",
+    "description": "Data virtualization can help you accomplish your goals with more flexibility and agility. Learn what it is and how and why it should be used with Data Virtualization for Business Intelligence Systems. In this book, expert author Rick van der Lans explains how data virtualization servers work, what techniques to use to optimize access to various data sources and how these products can be applied in different projects. You’ll learn the difference is between this new form of data integration and older forms, such as ETL and replication, and gain a clear understanding of how data virtualization really works. Data Virtualization for Business Intelligence Systems outlines the advantages and disadvantages of data virtualization and illustrates how data virtualization should be applied in data warehouse environments. You’ll come away with a comprehensive understanding of how data virtualization will make data warehouse environments more flexible and how it make developing operational BI applications easier. Van der Lans also describes the relationship between data virtualization and related topics, such as master data management, governance, and information management, so you come away with a big-picture understanding as well as all the practical know-how you need to virtualize your data. First independent book on data virtualization that explains in a product-independent way how data virtualization technology works. Illustrates concepts using examples developed with commercially available products. Shows you how to solve common data integration challenges such as data quality, system interference, and overall performance by following practical guidelines on using data virtualization. Apply data virtualization right away with three chapters full of practical implementation guidance. Understand the big picture of data virtualization and its relationship with data governance and information management.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780123978172"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0123978173"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 296,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=7eMd-46wXdMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=7eMd-46wXdMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=7eMd-46wXdMC&printsec=frontcover&dq=isbn:9780123978172&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=7eMd-46wXdMC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7eMd-46wXdMC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 55.6,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 38.92,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=7eMd-46wXdMC&rdid=book-7eMd-46wXdMC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.56E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.892E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Data_Virtualization_for_Business_Intelli-sample-epub.acsm?id=7eMd-46wXdMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Data_Virtualization_for_Business_Intelli-sample-pdf.acsm?id=7eMd-46wXdMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=7eMd-46wXdMC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this book, expert author Rick van der Lans explains how data virtualization servers work, what techniques to use to optimize access to various data sources and how these products can be applied in different projects."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "RT7LAwAAQBAJ",
+   "etag": "iAyYLxc8nzQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/RT7LAwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Complete Business Process Handbook",
+    "subtitle": "Body of Knowledge from Process Modeling to BPM",
+    "authors": [
+     "Mark von Rosing",
+     "Henrik von Scheel",
+     "August-Wilhelm Scheer"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "publishedDate": "2014-12-06",
+    "description": "The Complete Business Process Handbook is the most comprehensive body of knowledge on business processes with revealing new research. Written as a practical guide for Executives, Practitioners, Managers and Students by the authorities that have shaped the way we think and work with process today. It stands out as a masterpiece, being part of the BPM bachelor and master degree curriculum at universities around the world, with revealing academic research and insight from the leaders in the market. This book provides everything you need to know about the processes and frameworks, methods, and approaches to implement BPM. Through real-world examples, best practices, LEADing practices and advice from experts, readers will understand how BPM works and how to best use it to their advantage. Cases from industry leaders and innovators show how early adopters of LEADing Practices improved their businesses by using BPM technology and methodology. As the first of three volumes, this book represents the most comprehensive body of knowledge published on business process. Following closely behind, the second volume uniquely bridges theory with how BPM is applied today with the most extensive information on extended BPM. The third volume will explore award winning real-life examples of leading business process practices and how it can be replaced to your advantage. Learn what Business Process is and how to get started Comprehensive historical process evolution In-depth look at the Process Anatomy, Semantics and Ontology Find out how to link Strategy to Operation with value driven BPM Uncover how to establish a way of Thinking, Working, Modelling and Implementation Explore comprehensive Frameworks, Methods and Approaches How to build BPM competencies and establish a Center of Excellence Discover how to apply Social BPM, Sustainable and Evidence based BPM Learn how Value & Performance Measurement and Management Learn how to roll-out and deploy process Explore how to enable Process Owners, Roles and Knowledge Workers Discover how to Process and Application Modelling Uncover Process Lifecycle, Maturity, Alignment and Continuous Improvement Practical continuous improvement with the way of Governance Future BPM trends that will affect business Explore the BPM Body of Knowledge",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780128004722"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "012800472X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 776,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.14.11.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=RT7LAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=RT7LAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=RT7LAwAAQBAJ&printsec=frontcover&dq=isbn:9780128004722&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=RT7LAwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RT7LAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 60.44,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 42.31,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=RT7LAwAAQBAJ&rdid=book-RT7LAwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6.044E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.231E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Complete_Business_Process_Handbook-sample-epub.acsm?id=RT7LAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/The_Complete_Business_Process_Handbook-sample-pdf.acsm?id=RT7LAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=RT7LAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book provides everything you need to know about the processes and frameworks, methods, and approaches to implement BPM."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "wRCqjRQy6WIC",
+   "etag": "X8BrrQWfgGM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/wRCqjRQy6WIC",
+   "volumeInfo": {
+    "title": "Emergency Management and Tactical Response Operations",
+    "subtitle": "Bridging the Gap",
+    "authors": [
+     "Thomas D. Phelan"
+    ],
+    "publisher": "Butterworth-Heinemann",
+    "publishedDate": "2011-04-08",
+    "description": "Is emergency management education undoing an age-old tradition in the American Fire Service? Has the time arrived to educate emergency managers in college classrooms rather than in twenty years of tactical operations experience? Over one hundred forty-three (143) institutions of higher education are now offering certificate or degree programs in emergency management with no tactical operations experience required for admission. Resistance by veteran law enforcement officers and fire fighters may have to be overcome if we are to prepare emergency managers with required skill sets. Dr. Tom Phelan explores the skills being taught to emergency management students and addresses the concerns of experienced first responders in accepting their leadership. *Discusses the value of emergency management education in the post-9/11 world *Makes clear the need for educating emergency managers to prepare them for emergency manager leadership *Helps bridge the gap between emergency management and first responders *Should be required reading in every college emergency management curriculum *The book is clear, concise, and an \"easy read\"",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080878607"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0080878601"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 312,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=wRCqjRQy6WIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=wRCqjRQy6WIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=wRCqjRQy6WIC&printsec=frontcover&dq=isbn:9780080878607&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=wRCqjRQy6WIC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wRCqjRQy6WIC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 64.07,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 44.85,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=wRCqjRQy6WIC&rdid=book-wRCqjRQy6WIC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6.407E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.485E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Emergency_Management_and_Tactical_Respon-sample-epub.acsm?id=wRCqjRQy6WIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Emergency_Management_and_Tactical_Respon-sample-pdf.acsm?id=wRCqjRQy6WIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=wRCqjRQy6WIC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Dr. Tom Phelan explores the skills being taught to emergency management students and addresses the concerns of experienced first responders in accepting their leadership. *Discusses the value of emergency management education in the post ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "Ma87AgAAQBAJ",
+   "etag": "qDCBOhillus",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Ma87AgAAQBAJ",
+   "volumeInfo": {
+    "title": "Commercial Data Mining",
+    "subtitle": "Processing, Analysis and Modeling for Predictive Analytics Projects",
+    "authors": [
+     "David Nettleton"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2014-01-29",
+    "description": "Whether you are brand new to data mining or working on your tenth predictive analytics project, Commercial Data Mining will be there for you as an accessible reference outlining the entire process and related themes. In this book, you'll learn that your organization does not need a huge volume of data or a Fortune 500 budget to generate business using existing information assets. Expert author David Nettleton guides you through the process from beginning to end and covers everything from business objectives to data sources, and selection to analysis and predictive modeling. Commercial Data Mining includes case studies and practical examples from Nettleton's more than 20 years of commercial experience. Real-world cases covering customer loyalty, cross-selling, and audience prediction in industries including insurance, banking, and media illustrate the concepts and techniques explained throughout the book. Illustrates cost-benefit evaluation of potential projects Includes vendor-agnostic advice on what to look for in off-the-shelf solutions as well as tips on building your own data mining tools Approachable reference can be read from cover to cover by readers of all experience levels Includes practical examples and case studies as well as actionable business insights from author's own experience",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124166585"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "012416658X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Ma87AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Ma87AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=Ma87AgAAQBAJ&printsec=frontcover&dq=isbn:9780124166585&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Ma87AgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ma87AgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.13,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 32.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=Ma87AgAAQBAJ&rdid=book-Ma87AgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.713E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Commercial_Data_Mining-sample-epub.acsm?id=Ma87AgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Commercial_Data_Mining-sample-pdf.acsm?id=Ma87AgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Ma87AgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this book, you&#39;ll learn that your organization does not need a huge volume of data or a Fortune 500 budget to generate business using existing information assets."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "xsDOzbEfU-YC",
+   "etag": "6ycu5HwMr+k",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xsDOzbEfU-YC",
+   "volumeInfo": {
+    "title": "Accounting, the Social and the Political",
+    "subtitle": "Classics, Contemporary and Beyond",
+    "authors": [
+     "Norman B. Macintosh",
+     "Trevor Hopper"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2005-09-30",
+    "description": "This book contains 35 carefully selected and abridged versions of scholarly financial and managerial research articles by world-class researchers ranging across a wide spectrum of the social, political and philosophical sides of financial and managerial accounting information and practices to focus on accounting's wider role and impact on organizations and society at large. While each article was substantially culled in order to highlight its central findings and its unique approach, care was exercised to maintain the integrity of the authors' work. The result is a collection of readily accessible research including: classics and seminal articles, a selection of more contemporary articles, and recent articles that go beyond the conventional. Thus, the book pushes the boundaries beyond that of conventional accounting thought and research. This anthology will be of interest especially to graduate students since it provides a broad sampling of influential research studies presented in a highly accessible format. It should also be of vital interest to sophisticated practitioners who are concerned about the current state of the accounting world in the wake of the recent cascade of so-called \"accounting scandals\". The hope also is to help bridge the gap between the practitioners' and the scholarly researchers' Worlds.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0080545041"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080545042"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.9.5.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xsDOzbEfU-YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xsDOzbEfU-YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=xsDOzbEfU-YC&printsec=frontcover&dq=isbn:9780080545042&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=xsDOzbEfU-YC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xsDOzbEfU-YC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 129.47,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 90.63,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=xsDOzbEfU-YC&rdid=book-xsDOzbEfU-YC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.2947E8,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 9.063E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Accounting_the_Social_and_the_Political-sample-epub.acsm?id=xsDOzbEfU-YC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Accounting_the_Social_and_the_Political-sample-pdf.acsm?id=xsDOzbEfU-YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=xsDOzbEfU-YC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book contains 35 carefully selected and abridged versions of scholarly financial and managerial research articles by world-class researchers ranging across a wide spectrum of the social, political and philosophical sides of financial ..."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "5Nby0Vs4yPMC",
+   "etag": "ConeZZmCElM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/5Nby0Vs4yPMC",
+   "volumeInfo": {
+    "title": "Non-Executive Director's Handbook",
+    "authors": [
+     "Patrick Dunne",
+     "Glynis D Morris"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2009-08-14",
+    "description": "The Non-executive Directors Handbook is an indispensable guide that deals with the changing role and responsibilities of the Non-Executive Director in companies today. It recognises the increasing importance of the position, the growing pressures on Non-Executive Directors and the need for full compliance with the latest legislation and regulation in order to avoid heavy fines and penalties. This book provides practical information and guidance on all aspects of the role. Written specially for and about non-executive directors the book incorporates useful checklists and summaries. Updated material includes: corporate strategy; risk management; ethics (Global Reporting Initiatives (GRI)); governance (covers current version of the Combined Code); how to improve a company's efficiency and effectiveness; International Standards on Auditing (ISAs); and updates for recent developments of the impact of Sarbanes-Oxley Act. Best-practice guidelines on all the duties and responsibilities of non-executive directors Full coverage of corporate strategy, risk management, ethics (especially in line with Global Reporting Initiative [GRI] guidelines), and governance Shows how to improve a company's efficiency and effectiveness",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781856179775"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "185617977X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 602,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "5.9.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=5Nby0Vs4yPMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=5Nby0Vs4yPMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=5Nby0Vs4yPMC&printsec=frontcover&dq=isbn:9781856179775&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=5Nby0Vs4yPMC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5Nby0Vs4yPMC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 111.26,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 77.88,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=5Nby0Vs4yPMC&rdid=book-5Nby0Vs4yPMC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.1126E8,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 7.788E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Non_Executive_Director_s_Handbook-sample-epub.acsm?id=5Nby0Vs4yPMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Non_Executive_Director_s_Handbook-sample-pdf.acsm?id=5Nby0Vs4yPMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=5Nby0Vs4yPMC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book provides practical information and guidance on all aspects of the role. Written specially for and about non-executive directors the book incorporates useful checklists and summaries."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "T_eOxfVptf4C",
+   "etag": "JardPm6j1aI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/T_eOxfVptf4C",
+   "volumeInfo": {
+    "title": "Corporate Governance",
+    "subtitle": "A practical guide for accountants",
+    "authors": [
+     "Catherine Turner"
+    ],
+    "publisher": "Butterworth-Heinemann",
+    "publishedDate": "2009-07-02",
+    "description": "This book will provide a user-friendly guide to current and emerging issues in corporate governance, especially for accountants and directors. The book explains terminology used in a jargon free way, and sets out to give you a practical guide to establishing a robust, yet workable governance framework for your enterprise. The book also guides you through the process of dealing with the particular issues relating to listed companies, and to those with exposures in other countries which may bring other jurisdictions? governance requirements to bear. The book is intended to appeal to accountants who are not professionals in corporate governance matters. It therefore aims to give them a user-friendly manual/guide to the issues of which they need to be aware. A quick reference guide. In addition the book provides a valuable update on the evolution of the concept of governance, and where the international trends appear to be going. The author is a financial services and regulatory consultant. She is also Manager, Corporate Governance for an international life company, and also an examiner and moderator who lectures and writes extensively on a wide range of compliance and financial services matters. The book is organised into the following sections. Section 1: what is corporate governance? How has it evolved, and what are the emerging trends? Section 2: a practical guide to establishing and implementing a robust governance framework * covers the concept of Corporate Governance from the point of view of accountants and directors and what these groups need to be aware of * explains the sensible steps that should be taken to document and provide evidence of their compliance with the various legislation in place * provides accountants with a practical, user-friendly manual to the governance issues which they need to be aware of.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "008094213X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080942131"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 196,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.10.11.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=T_eOxfVptf4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=T_eOxfVptf4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=T_eOxfVptf4C&printsec=frontcover&dq=isbn:9780080942131&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=T_eOxfVptf4C&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=T_eOxfVptf4C"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 55.6,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 38.92,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=T_eOxfVptf4C&rdid=book-T_eOxfVptf4C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.56E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.892E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Corporate_Governance-sample-epub.acsm?id=T_eOxfVptf4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Corporate_Governance-sample-pdf.acsm?id=T_eOxfVptf4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=T_eOxfVptf4C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book will provide a user-friendly guide to current and emerging issues in corporate governance, especially for accountants and directors."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 0
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 0
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "9gnUAgAAQBAJ",
+   "etag": "u9HTRqbGYjA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/9gnUAgAAQBAJ",
+   "volumeInfo": {
+    "title": "Social Engineering Penetration Testing",
+    "subtitle": "Executing Social Engineering Pen Tests, Assessments and Defense",
+    "authors": [
+     "Gavin Watson",
+     "Andrew Mason",
+     "Richard Ackroyd"
+    ],
+    "publisher": "Syngress",
+    "publishedDate": "2014-04-11",
+    "description": "Social engineering attacks target the weakest link in an organization's security human beings. Everyone knows these attacks are effective, and everyone knows they are on the rise. Now, Social Engineering Penetration Testing gives you the practical methodology and everything you need to plan and execute a social engineering penetration test and assessment. You will gain fascinating insights into how social engineering techniques including email phishing, telephone pretexting, and physical vectors can be used to elicit information or manipulate individuals into performing actions that may aid in an attack. Using the book's easy-to-understand models and examples, you will have a much better understanding of how best to defend against these attacks. The authors of Social Engineering Penetration Testing show you hands-on techniques they have used at RandomStorm to provide clients with valuable results that make a real difference to the security of their businesses. You will learn about the differences between social engineering pen tests lasting anywhere from a few days to several months. The book shows you how to use widely available open-source tools to conduct your pen tests, then walks you through the practical steps to improve defense measures in response to test results. Understand how to plan and execute an effective social engineering assessment Learn how to configure and use the open-source tools available for the social engineer Identify parts of an assessment that will most benefit time-critical engagements Learn how to design target scenarios, create plausible attack situations, and support various attack vectors with technology Create an assessment report, then improve defense measures in response to test results",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124201828"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124201822"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 390,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=9gnUAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=9gnUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=9gnUAgAAQBAJ&printsec=frontcover&dq=isbn:9780124201828&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=9gnUAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9gnUAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.13,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 32.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=9gnUAgAAQBAJ&rdid=book-9gnUAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.713E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.299E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Social_Engineering_Penetration_Testing-sample-epub.acsm?id=9gnUAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Social_Engineering_Penetration_Testing-sample-pdf.acsm?id=9gnUAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=9gnUAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Using the book&#39;s easy-to-understand models and examples, you will have a much better understanding of how best to defend against these attacks."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "xh-oBQAAQBAJ",
+   "etag": "8qQRfmuzvjY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xh-oBQAAQBAJ",
+   "volumeInfo": {
+    "title": "Virgin Lands",
+    "subtitle": "Two Years in Kazakhstan, 1954-5",
+    "authors": [
+     "L. I. Brezhnev"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2014-05-19",
+    "description": "Virgin Lands: Two Years in Kazakhstan, 1954-5 focuses on the life, career, and experiences of L. I. Brezhnev when he stayed in Kazakhstan to push for the improvement of the agriculture sector of the country. The book first offers information on the experiences of L. I. Brezhnev as a farmer, land-use surveyor, metallurgist, factory worker, and politician. Brezhnev underscores how he pushed for the organization of collective farms. The text also highlights the poor state of agriculture in the country, including the farming methodologies that Brezhnev and his countrymen have adopted to overcome the extreme conditions of farming lands. The manuscript details the improvement of state farms, particularly noting the increase in harvest and the number of farms to be set up. Brezhnev narrates how the state farms are affected by drought and extreme weather conditions, and how they have doubled the crop areas through the use of farm implements. The book also underscores the role of farm machineries in the increase of production of grain, meat, and vegetables. The text is a dependable source of data for readers interested in the life and career of L. I. Brezhnev, particularly his dedication to develop agriculture in Kazakhstan.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781483152165"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1483152162"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 108,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xh-oBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xh-oBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=xh-oBQAAQBAJ&printsec=frontcover&dq=isbn:9781483152165&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=xh-oBQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xh-oBQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 30.19,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 21.13,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=xh-oBQAAQBAJ&rdid=book-xh-oBQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.019E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.113E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Virgin_Lands-sample-pdf.acsm?id=xh-oBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=xh-oBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The text is a dependable source of data for readers interested in the life and career of L. I. Brezhnev, particularly his dedication to develop agriculture in Kazakhstan."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "f-a00W_d1ugC",
+   "etag": "laJn+yug4mk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/f-a00W_d1ugC",
+   "volumeInfo": {
+    "title": "Job Reconnaissance",
+    "subtitle": "Using Hacking Skills to Win the Job Hunt Game",
+    "authors": [
+     "Josh More"
+    ],
+    "publisher": "Elsevier",
+    "publishedDate": "2013-09-20",
+    "description": "There is considerably more skill in the IT and security communities than is reflected in the jobs people are able to attain. Most people's limiting factor in their ability to get better jobs is not technical skills or even the soft skills necessary to do well in a new job. It is that getting a job is a completely different skill set and one that most people only practice every few years. Job Reconnaissance: Using Hacking Skills to Win the Job Hunt Game explains the job hunting process, why the most commonly followed models fail and how to better approach the search. It covers the entire job hunt process from when to decide to leave your current job, research new possible job opportunities, targeting your new boss, controlling the job interview process and negotiating your new compensation and the departure from your current job. This is not a complete all-in-one job-hunting book. This book assumes that the reader is reasonably competent and has already heard most of the \"standard\" advice, but is having difficulty putting the advice into practice. The goal is to fill in the gaps of the other books and to help the readers use their technical skills to their advantage in a different context. The emphasis in Job Reconnaissance is for infosec and IT job seekers to leverage the same skills they use in penetration testing and recon toward job-hunting success. These skills include targeting, reconnaissance and profiling combined with a technical look at skills other career search books commonly miss. Covers the entire job hunt process from when to decide to leave your current job to the departure of your current job Suggests how to research new possible job opportunities Shows how to target your new boss, controlling the job interview process and negotiating your new compensation",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124166608"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124166601"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 196,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=f-a00W_d1ugC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=f-a00W_d1ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=f-a00W_d1ugC&printsec=frontcover&dq=isbn:9780124166608&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=f-a00W_d1ugC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=f-a00W_d1ugC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 28.98,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 20.29,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=f-a00W_d1ugC&rdid=book-f-a00W_d1ugC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.898E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.029E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Job_Reconnaissance-sample-epub.acsm?id=f-a00W_d1ugC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Job_Reconnaissance-sample-pdf.acsm?id=f-a00W_d1ugC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=f-a00W_d1ugC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This is not a complete all-in-one job-hunting book. This book assumes that the reader is reasonably competent and has already heard most of the &quot;standard&quot; advice, but is having difficulty putting the advice into practice."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 1,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "cnOmxJaxC_IC",
+   "etag": "FZyC323geCY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/cnOmxJaxC_IC",
+   "volumeInfo": {
+    "title": "Federated Identity Primer",
+    "authors": [
+     "Derrick Rountree"
+    ],
+    "publisher": "Newnes",
+    "publishedDate": "2012-12-31",
+    "description": "Identity authentication and authorization are integral tasks in today's digital world. As businesses become more technologically integrated and consumers use more web services, the questions of identity security and accessibility are becoming more prevalent. Federated identity links user credentials across multiple systems and services, altering both the utility and security landscape of both. In Federated Identity Primer, Derrick Rountree. Learn about Internet authentication Learn about federated authentication Learn about ADFS 2.0",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780124072077"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0124072070"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 96,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.4.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=cnOmxJaxC_IC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=cnOmxJaxC_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.lv/books?id=cnOmxJaxC_IC&printsec=frontcover&dq=isbn:9780124072077&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=cnOmxJaxC_IC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cnOmxJaxC_IC"
+   },
+   "saleInfo": {
+    "country": "LV",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 24.14,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 16.9,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=cnOmxJaxC_IC&rdid=book-cnOmxJaxC_IC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.414E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.69E7,
+       "currencyCode": "EUR"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "LV",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Federated_Identity_Primer-sample-epub.acsm?id=cnOmxJaxC_IC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.lv/books/download/Federated_Identity_Primer-sample-pdf.acsm?id=cnOmxJaxC_IC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=cnOmxJaxC_IC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Federated identity links user credentials across multiple systems and services, altering both the utility and security landscape of both. In Federated Identity Primer, Derrick Rountree."
+   }
+  }
+ ]
+}
+{
+ "kind": "books#volumes",
+ "totalItems": 0
+}
