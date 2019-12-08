@@ -1,0 +1,21 @@
+migrations:
+    - version: 6.0.0
+      description: update all user - add createdBy and modifiedBy fields
+      author: admin
+      command: {
+        update: "user",
+        updates: [
+            {
+                q: { },
+                u: {
+                    $currentDate: { modificationDate: true },
+                    $set: {
+                        createdBy: "admin",
+                        modifiedBy: "admin"
+                    },
+                    $inc: { version: 1 }
+                },
+                multi: true
+            }
+        ]
+      }

@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/
+      port: 27017
+      database: mongotrek_test
+
+application:
+  property:
+    mongotrek:
+      script1:
+        path: "migration/mongotrek1.yml"
+      script2:
+        path: "migration/mongotrek1.yml"
+
+      changelog:
+        collection:
+          name: "mongotrek_changelog"

@@ -1,0 +1,133 @@
+migrations:
+    - version: 1.0.0
+      description: initialization - populate user base data
+      author: admin
+      command: {
+        insert: "user",
+        documents: [
+            { firstname: "Rosanne", lastname: "Torres", birthdate: "1949-02-21", email: "rtorres1@home.pl", phone: "221-579-3490" },
+            { firstname: "Sheffie", lastname: "Bernard", birthdate: "1948-04-08", email: "sbernard2@paginegialle.it", phone: "440-203-0772" },
+            { firstname: "Evin", lastname: "Ferrie", birthdate: "1994-09-23", email: "eferrie3@omniture.com", phone: "272-301-2289" },
+            { firstname: "Humphrey", lastname: "Winchcombe", birthdate: "1993-08-30", email: "hwinchcombe4@symantec.com", phone: "960-147-5226" },
+            { firstname: "Durand", lastname: "Hobbert", birthdate: "1980-10-20", email: "dhobbert5@ehow.com", phone: "109-415-4201" }
+        ]
+      }
+    - version: 2.0.0
+      description: update user - add creation date - update many
+      author: admin
+      command: {
+        update: "user",
+        updates: [
+            {
+                q: {},                                                      # what to update ( {} means all )
+                u: {$currentDate: {"creationDate": { $type: "date" }}},     # adding creation date field
+                multi: true                                                 # if true, that means update all documents
+            }
+        ]
+      }
+    - version: 3.0.0
+      description: update user - add modification date - update many
+      author: admin
+      command: {
+        update: "user",
+        updates: [
+            {
+                q: {},                                                      # what to update ( {} means all )
+                u: {
+                    $currentDate: {"modificationDate": { $type: "date" }},  # adding modification date field
+                    $set: {"version" : 1}                                   # setting field version value, creates field if not exists
+                },
+                multi: true                                                 # if true, that means update all documents
+            }
+        ]
+      }
+    - version: 4.0.0
+      description: update user - add address and update modification date and version - update many
+      author: admin
+      command: {
+        update: "user",
+        updates: [
+            {
+                q: {"lastname": "Winchcombe"},                            # update user with lastname "Winchcombe"
+                u: {
+                    $set: {                                               # add array of addresses to user
+                        "address": [
+                            {city: "Magic City", street: "Paper street 1", zip: "123456"},
+                            {city: "Sin City", street: "Brivibas street 1", zip: "32234"},
+                            {city: "Vice City", street: "Raina Bulvarise 2", zip: "2346"}
+                        ]
+                    },
+                    $currentDate: {"modificationDate": true},              # update modification date
+                    $inc: {"version" : 1}                                  # increment version
+                },
+                multi: true                                                # if true, that means update all documents
+            }
+        ]
+      }
+    - version: 5.0.0
+      description: create user - create default user without email
+      author: admin
+      command: {
+        insert: "user",
+        documents: [
+            { username: "jaga jaga", password: "thepass", name: "Frederic", nickname: "Narkota", version: 0,
+                creationDate: Date.now(),
+                address: [
+                            {city: "Riga", street: "Brivibas gatve 0", zip: "05678"},
+                            {city: "Riga", street: "Brivibas gatve 1", zip: "15678"}
+                        ]
+                },
+            { username: "adasdasd@gmail.com", password: "password1234", name: "Teresa", nickname: "Chudila", version: 0,
+                creationDate: Date.now(),
+                address: [
+                            {city: "Riga", street: "Brivibas gatve 0", zip: "05678"}
+                        ]
+            },
+            { username: "testuser", password: "1234", name: "Carl", nickname: "Sinjak", version: 0,
+                creationDate: Date.now(),
+                address: [
+                            {city: "Riga", street: "Brivibas gatve 0", zip: "05678"},
+                            {city: "Riga", street: "Brivibas gatve 1", zip: "15678"},
+                            {city: "Riga", street: "Brivibas gatve 2", zip: "25678"},
+                            {city: "Riga", street: "Brivibas gatve 3", zip: "35678"},
+                            {city: "Riga", street: "Brivibas gatve 4", zip: "45678"}
+                        ]
+            },
+            { username: "user1234", password: "supersecpass", name: "Nancy", nickname: "Chukcha", version: 0,
+                creationDate: Date.now(),
+                address: [
+                            {city: "Riga", street: "Brivibas gatve 0", zip: "05678"},
+                            {city: "Riga", street: "Brivibas gatve 1", zip: "15678"},
+                            {city: "Riga", street: "Brivibas gatve 2", zip: "25678"},
+                            {city: "Riga", street: "Brivibas gatve 3", zip: "35678"}
+                        ]
+            },
+            { username: "testuser", password: "changemepass1234", name: "John doe", nickname: "Loh666", version: 0,
+                creationDate: Date.now(),
+                address: [
+                            {city: "Riga", street: "Brivibas gatve 0", zip: "05678"},
+                            {city: "Riga", street: "Brivibas gatve 1", zip: "15678"},
+                            {city: "Riga", street: "Brivibas gatve 2", zip: "25678"}
+                        ]
+            }
+        ]
+      }
+    - version: 5.0.1
+      description: update all user with empty cDates - add creation date - update many
+      author: admin
+      command: {
+        update: "user",
+        updates: [
+        {
+          q: { creationDate: "Date.now()"},
+          u: {
+            $currentDate: {
+              "creationDate": { $type: "date" },
+              "modificationDate": { $type: "date"}
+            },
+            $inc: { version: 1 }
+          },
+          multi: true
+        }
+        ]
+      }
