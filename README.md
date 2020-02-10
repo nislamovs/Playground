@@ -1,2 +1,2 @@
 # Playground
-Java/Spring playground
+Software development snippets and examples
