@@ -1,0 +1,82 @@
+-- Create all tables                                                        OK
+-- Create all services                                                      --
+-- Create all dao's                                                         --
+-- Create all dto's                                                         --
+-- Create all controlers (pupils, teachers, marks, classes, subjects)       --
+
+
+-- Add DAO validation                                                       --
+-- Add DTO validation                                                       --
+
+                                                                      controllers      services       dao's
+
+    -- list all pupils                                                      OK           --             --
+    -- add new pupil                                                        --           --             --
+    -- edit pupil data                                                      --           --             --
+    -- delete pupil                                                         --           --             --
+    -- pupil page                                                           OK           --             --
+    -- get pupil by id                                                      --           --             --
+
+    -- list all teachers                                                    OK           --             --
+    -- add new teacher                                                      --           --             --
+    -- edit teacher data                                                    --           --             --
+    -- delete teacher                                                       --           --             --
+    -- teachers page                                                        OK           --             --
+    -- get teacher by id                                                    --           --             --
+
+    -- list all subjects                                                    OK           --             --
+    -- add new subject                                                      --           --             --
+    -- edit subject data                                                    --           --             --
+    -- delete subject                                                       --           --             --
+    -- subjects page                                                        OK           --             --
+    -- get subject by id                                                    --           --             --
+
+    -- list all classes                                                     OK           --             --
+    -- add new class                                                        --           --             --
+    -- edit class data                                                      --           --             --
+    -- delete class                                                         --           --             --
+    -- class page                                                           OK           --             --
+    -- get class by id                                                      --           --             --
+
+    -- list all marks                                                       OK           --             --
+    -- add new mark                                                         OK           --             --
+    -- edit mark data                                                       OK           --             --
+    -- delete mark                                                          OK           --             --
+    -- marks page                                                           OK           --             --
+    -- retrieve marks by pupil id                                           OK           --             --
+
+    -- search for pupil by name and surname                                 --           --             --
+    -- search for pupil or teacher by email                                 --           --             --
+    -- search for marks by date                                             --           --             --
+
+-- create statistics controller                                             --           --             --
+
+-- Generate data and load into db                                           OK
+
+-- Use db operations:
+    -- grouping                                                             --
+    -- transaction                                                          --
+
+    -- limits                                                               OK
+    -- Sorting (order by)                                                   OK
+
+    -- Join                                                                 --
+    -- Like                                                                 --
+    -- Stored procedure launch                                              --
+    -- connection pools                                                     --
+    -- trigger                                                              --
+
+-- create connection pool select via interface (dbcp, hikaricp, c3op)       --
+
+        -- dbcp                                                             --
+        -- hikaricp                                                         --
+        -- c3op                                                             --
+
+-- Create docker image for app                                              OK
+-- Create docker image for mysql                                            OK
+-- Use docker compose                                                       OK
+
+-- Check lombok annotation for automatic connection closeup                 OK
+
+-- Update README                                                            --
+
