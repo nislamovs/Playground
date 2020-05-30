@@ -6,12 +6,12 @@ import com.example.jdbcexample.services.PupilsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
 import java.util.List;
 
+import static org.springframework.http.ResponseEntity.created;
 import static org.springframework.http.ResponseEntity.ok;
 
 
@@ -23,17 +23,47 @@ public class PupilController {
 
     private final PupilsService pupilsService;
 
-    @RequestMapping("/pupil/all")
-    public ResponseEntity<List<PupilDTO>> getPupils() {
+    @GetMapping("/pupil/all")
+    public ResponseEntity<?> getPupils() {
         return ok(pupilsService.getAllPupils());
     }
 
-    @RequestMapping("/pupil")
-    public ResponseEntity<List<PupilDTO>> getPupilsPage(@RequestParam(name = "pagenum", required = true) String pagenum,
+    @GetMapping("/pupil")
+    public ResponseEntity<?> getPupilsPage(@RequestParam(name = "pagenum", required = true) String pagenum,
                                                         @RequestParam(name = "pagesize", required = true) String pagesize,
                                                         @RequestParam(name = "sort", required = true) String sort,
                                                         @RequestParam(name = "group", required = true) String group) {
 
         return ok(pupilsService.getPupilsPage(pagenum, pagesize, sort, group));
+    }
+
+    @GetMapping("/pupil")
+    public ResponseEntity<?> getPupilByNameSurname(@RequestParam(name = "name", required = true) String name,
+                                                          @RequestParam(name = "surname", required = true) String surname) {
+
+        return ok(pupilsService.getPupilsByFirstnameLastname(name, surname));
+    }
+
+    @GetMapping("/pupil/{id}")
+    public ResponseEntity<?> getPupilById(@PathVariable("id") String id) {
+        return ok(pupilsService.getPupilById(id));
+    }
+
+    @PostMapping("/pupil")
+    public ResponseEntity<?> newPupil() {
+
+        return created(pupilsService.addNewPupil());
+    }
+
+    @PutMapping("/pupil")
+    public ResponseEntity<?> editPupil() {
+
+        return ok(pupilsService.editPupilData());
+    }
+
+    @DeleteMapping("/pupil/{id]")
+    public ResponseEntity<?> deletePupil(@PathVariable("id") String id) {
+
+        return ok(pupilsService.deletePupil(id));
     }
 }

@@ -13,10 +13,11 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SubjectMarkDTO extends AbstractDTO {
+public class PersonDTO extends AbstractDTO {
 
-    private Long subject_id;
-    private Long pupil_id;
-    private Date date;
-    private Integer value;
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String gender;
+    private Date birthdate;
 }

@@ -17,4 +17,4 @@ insert into subjects (id, teacher_id, name) values (8, 8, 'Physics');
 insert into subjects (id, teacher_id, name) values (9, 9, 'Chemistry');
 insert into subjects (id, teacher_id, name) values (10, 10, 'History');
 insert into subjects (id, teacher_id, name) values (11, 11, 'Geography');
-insert into subjects (id, teacher_id, name) values (12, 12, 'Economy');
+insert into subjects (id, teacher_id, name) values (12, 12, 'Economics');

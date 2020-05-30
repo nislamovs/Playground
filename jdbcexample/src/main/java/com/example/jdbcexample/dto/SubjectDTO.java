@@ -2,24 +2,19 @@ package com.example.jdbcexample.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 import java.util.Date;
 
+@EqualsAndHashCode(callSuper = true)
 @Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SubjectDTO {
+public class SubjectDTO  extends AbstractDTO {
 
-    private Long id;
-    private String firstname;
-    private String lastname;
-    private String email;
-    private String gender;
-    private Date birthdate;
+    private Long teacher_id;
+    private String name;
 }

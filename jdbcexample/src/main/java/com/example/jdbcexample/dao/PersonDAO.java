@@ -11,11 +11,14 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SubjectMarkDAO {
+public class PersonDAO {
 
     private Long id;
-    private Long subjectId;
-    private Long pupilId;
-    private Date date;
-    private int value;
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String gender;
+    private Date birthdate;
+    private Long class_id;
+    private Long class_head_id;
 }

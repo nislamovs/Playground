@@ -2,58 +2,61 @@
 -- Create all services                                                      --
 -- Create all dao's                                                         --
 -- Create all dto's                                                         --
--- Create all controlers (pupils, teachers, marks, classes, subjects)       --
+-- Create all controlers (pupils, teachers, marks, classes, subjects)       OK
 
 
 -- Add DAO validation                                                       --
 -- Add DTO validation                                                       --
 
-                                                                      controllers      services       dao's
+                                                                      controllers      services       dto's/dao's
 
-    -- list all pupils                                                      OK           --             --
-    -- add new pupil                                                        --           --             --
-    -- edit pupil data                                                      --           --             --
-    -- delete pupil                                                         --           --             --
-    -- pupil page                                                           OK           --             --
-    -- get pupil by id                                                      --           --             --
+    -- list all pupils                                                      OK           OK             --
+    -- add new pupil                                                        OK           OK             --
+    -- edit pupil data                                                      OK           OK             --
+    -- delete pupil                                                         OK           OK             --
+    -- pupil page                                                           OK           OK             --
+    -- get pupil by id                                                      OK           OK             --
 
-    -- list all teachers                                                    OK           --             --
-    -- add new teacher                                                      --           --             --
-    -- edit teacher data                                                    --           --             --
-    -- delete teacher                                                       --           --             --
-    -- teachers page                                                        OK           --             --
-    -- get teacher by id                                                    --           --             --
+    -- list all teachers                                                    OK           OK             --
+    -- add new teacher                                                      OK           OK             --
+    -- edit teacher data                                                    OK           OK             --
+    -- delete teacher                                                       OK           OK             --
+    -- teachers page                                                        OK           OK             --
+    -- get teacher by id                                                    OK           OK             --
 
-    -- list all subjects                                                    OK           --             --
-    -- add new subject                                                      --           --             --
-    -- edit subject data                                                    --           --             --
-    -- delete subject                                                       --           --             --
-    -- subjects page                                                        OK           --             --
-    -- get subject by id                                                    --           --             --
+    -- list all subjects                                                    OK           OK             --
+    -- add new subject                                                      OK           OK             --
+    -- edit subject data                                                    OK           OK             --
+    -- delete subject                                                       OK           OK             --
+    -- subjects page                                                        OK           OK             --
+    -- get subject by id                                                    OK           OK             --
 
-    -- list all classes                                                     OK           --             --
-    -- add new class                                                        --           --             --
-    -- edit class data                                                      --           --             --
-    -- delete class                                                         --           --             --
-    -- class page                                                           OK           --             --
-    -- get class by id                                                      --           --             --
+    -- list all classes                                                     OK           OK             --
+    -- add new class                                                        OK           OK             --
+    -- edit class data                                                      OK           OK             --
+    -- delete class                                                         OK           OK             --
+    -- class page                                                           OK           OK             --
+    -- get class by id                                                      OK           OK             --
 
-    -- list all marks                                                       OK           --             --
-    -- add new mark                                                         OK           --             --
-    -- edit mark data                                                       OK           --             --
-    -- delete mark                                                          OK           --             --
-    -- marks page                                                           OK           --             --
-    -- retrieve marks by pupil id                                           OK           --             --
+    -- list all marks                                                       OK           OK             --
+    -- marks page                                                           OK           OK             --
+    -- add new mark                                                         OK           OK             --
+    -- edit mark data                                                       OK           OK             --
+    -- delete mark                                                          OK           OK             --
+    -- retrieve marks by pupil id                                           OK           OK             --
 
-    -- search for pupil by name and surname                                 --           --             --
-    -- search for pupil or teacher by email                                 --           --             --
-    -- search for marks by date                                             --           --             --
+    -- search for pupil by name and surname                                 OK           OK             --
+    -- search for pupil or teacher by email  (find person by email)         OK           OK             --
+    -- search for marks by date interval                                    OK           OK             --
 
--- create statistics controller                                             --           --             --
+    -- create statistics controller                                         OK           --             --
+    -- add some methods there
 
--- Generate data and load into db                                           OK
+    -- Generate data and load into db                                       OK
 
--- Use db operations:
+
+    -- Make wrapper for DB operations as it is done in spring data - create interface, implement methods --
+    -- Use db operations:
     -- grouping                                                             --
     -- transaction                                                          --
 
@@ -80,3 +83,7 @@
 
 -- Update README                                                            --
 
+
+Use spock for unit tests
+Use react for FE
+Use jsonDoc for docs

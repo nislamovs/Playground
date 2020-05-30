@@ -21,5 +21,5 @@ public class TeacherDAO {
     private Date birthdate;
     private Long class_id;
     private Long subject_id;
-    private boolean isHead;
+    private boolean is_head;
 }

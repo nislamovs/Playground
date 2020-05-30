@@ -1,6 +1,7 @@
 package com.example.jdbcexample.services;
 
 import com.example.jdbcexample.dao.SubjectMarkDAO;
+import com.example.jdbcexample.dto.AbstractDTO;
 import com.example.jdbcexample.dto.PupilDTO;
 import com.example.jdbcexample.dto.SubjectMarkDTO;
 import com.example.jdbcexample.mappers.MarkMapper;
@@ -12,15 +13,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.stereotype.Service;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
+import static java.lang.Long.parseLong;
 
 @Service
 @RequiredArgsConstructor
@@ -32,6 +32,11 @@ public class MarksService {
 
     private final String MARKS_RETRIEVAL_QUERY = "select * FROM marks";
     private final String MARKS_PAGE_RETRIEVAL_QUERY = "select * FROM marks WHERE id BETWEEN ? AND ? order by ? ?";
+    private final String MARKS_GET_BY_ID_RETRIEVAL_QUERY = "select * FROM marks WHERE id = ?";
+    private final String MARKS_GET_BY_DATE_RETRIEVAL_QUERY = "select * FROM marks WHERE date >= ? AND date <= ?";
+    private final String MARKS_NEW_MARK_ADD_QUERY = "INSERT INTO marks(id, subject_id, pupil_id, date, value) VALUES (?, ?, ?, ?, ?)";
+    private final String MARKS_EXISTING_MARK_UPDATE_QUERY = "UPDATE INTO marks(id, subject_id, pupil_id, date, value) VALUES (?, ?, ?, ?, ?)";
+    private final String MARKS_EXISTING_MARK_DELETE_QUERY = "DELETE FROM marks where id = ?";
 
     @SneakyThrows
     public List<SubjectMarkDTO> getAllMarks() {
@@ -45,7 +50,7 @@ public class MarksService {
     }
 
     @SneakyThrows
-    public  List<SubjectMarkDTO> getMarksPage(String pagenum, String pagesize, String sort, String group) {
+    public List<SubjectMarkDTO> getMarksPage(String pagenum, String pagesize, String sort, String group) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_PAGE_RETRIEVAL_QUERY);
@@ -62,27 +67,86 @@ public class MarksService {
     }
 
     @SneakyThrows
-    public  String getMarksByPupilId(Long pupilId) {
+    public List<SubjectMarkDTO> getMarksByPupilId(String pupilId) {
 
-        return "";
+        @Cleanup Connection conn = getConnection();
+        @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_GET_BY_ID_RETRIEVAL_QUERY);
+
+        int i = 1;
+        stmt.setInt(i++, parseInt(pupilId));
+
+        System.out.println(">>>   "+stmt.toString());
+
+        return executeQuery(stmt).stream().map(mapper::toDTO).collect(Collectors.toList());
     }
 
     @SneakyThrows
-    public  String addNewMark(SubjectMarkDAO mark) {
+    public List<SubjectMarkDTO> getMarksByDate(String startDate, String endDate) {
 
-        return "";
+        @Cleanup Connection conn = getConnection();
+        @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_GET_BY_DATE_RETRIEVAL_QUERY);
+
+        int i = 1;
+        stmt.setDate(i++, Date.valueOf(startDate));
+        stmt.setDate(i++, Date.valueOf(endDate));
+
+        System.out.println(">>>   "+stmt.toString());
+
+        return executeQuery(stmt).stream().map(mapper::toDTO).collect(Collectors.toList());
     }
 
     @SneakyThrows
-    public  String editMark(SubjectMarkDAO mark) {
+    public AbstractDTO addNewMark(SubjectMarkDTO mark) {
 
-        return "";
+        @Cleanup Connection conn = getConnection();
+        @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_NEW_MARK_ADD_QUERY);
+
+        int i = 1;
+        stmt.setRowId(i++, null);
+        stmt.setLong(i++, mark.getSubject_id());
+        stmt.setLong(i++, mark.getPupil_id());
+        stmt.setDate(i++, (Date) mark.getDate());
+        stmt.setInt(i++, mark.getValue());
+
+        System.out.println(">>>   "+stmt.toString());
+
+        Long markId = executeInsert(stmt);
+
+        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
-    public  String deleteMark(Long mark) {
+    public AbstractDTO editMark(SubjectMarkDAO mark) {
 
-        return "";
+        @Cleanup Connection conn = getConnection();
+        @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_EXISTING_MARK_UPDATE_QUERY);
+
+        int i = 1;
+        stmt.setLong(i++, mark.getId());
+        stmt.setLong(i++, mark.getSubjectId());
+        stmt.setLong(i++, mark.getPupilId());
+        stmt.setDate(i++, (Date) mark.getDate());
+        stmt.setInt(i++, mark.getValue());
+
+        System.out.println(">>>   "+stmt.toString());
+
+        Long markId = executeUpdate(stmt);
+
+        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+    }
+
+    @SneakyThrows
+    public AbstractDTO deleteMark(String markId) {
+
+        @Cleanup Connection conn = getConnection();
+        @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_EXISTING_MARK_DELETE_QUERY);
+
+        int i = 1;
+        stmt.setLong(i++, parseLong(markId));
+
+        System.out.println(">>>   "+stmt.toString());
+
+        return AbstractDTO.builder().dateTime(LocalDateTime.now()).build();
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -98,8 +162,8 @@ public class MarksService {
             while (rs.next()) {
                 SubjectMarkDAO mark = SubjectMarkDAO.builder()
                         .id(rs.getLong("id"))
-                        .subject_id(rs.getLong("subject_id"))
-                        .subject_id(rs.getLong("pupil_id"))
+                        .subjectId(rs.getLong("subject_id"))
+                        .pupilId(rs.getLong("pupil_id"))
                         .date(rs.getDate("date"))
                         .value(rs.getInt("id"))
                         .build();
@@ -111,5 +175,35 @@ public class MarksService {
         }
 
         return marks;
+    }
+
+    private Long executeUpdate(PreparedStatement stmt) {
+        return executeInsert(stmt);
+    }
+
+    private Long executeInsert(PreparedStatement stmt) {
+
+        long retVal = 0L;
+
+        try {
+            int affectedRows = stmt.executeUpdate();
+
+            if (affectedRows == 0) {
+                throw new SQLException("Creating new mark failed, no rows affected.");
+            }
+
+            try (ResultSet generatedKeys = stmt.getGeneratedKeys()) {
+                if (generatedKeys.next()) {
+                    retVal = generatedKeys.getLong(1);
+                } else {
+                    throw new SQLException("Creating new mark failed, no ID obtained.");
+                }
+            }
+
+        } catch (SQLException e) {
+            System.out.println(e);
+        }
+
+        return retVal;
     }
 }
