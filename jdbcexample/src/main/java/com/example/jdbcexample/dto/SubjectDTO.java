@@ -8,12 +8,13 @@ import lombok.experimental.SuperBuilder;
 import java.util.Date;
 
 @EqualsAndHashCode(callSuper = true)
-@Builder
+@SuperBuilder
+//@SuperBuilder(toBuilder = true)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SubjectDTO  extends AbstractDTO {
+public class SubjectDTO extends AbstractDTO {
 
     private Long teacher_id;
     private String name;

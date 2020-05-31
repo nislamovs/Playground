@@ -40,22 +40,22 @@ public class SchoolClassController {
         return ok(classesService.getClassesPage(pagenum, pagesize, sort, group));
     }
 
-    @GetMapping("/pupil/{id}")
+    @GetMapping("/class/{id}")
     public ResponseEntity<?> getSchoolClassById(@PathVariable("id") String id) {
         return ok(classesService.getSchoolClassById(id));
     }
 
-    @PostMapping("/pupil")
+    @PostMapping("/class")
     public ResponseEntity<?> newSchoolClass(@Valid @RequestBody SchoolClassDTO newSchoolClass) {
         return ok(classesService.addNewSchoolClass(newSchoolClass));
     }
 
-    @PutMapping("/pupil")
+    @PutMapping("/class")
     public ResponseEntity<?> editSchoolClass(@Valid @RequestBody SchoolClassDTO schoolClass) {
         return ok(classesService.editSchoolClassData(schoolClass));
     }
 
-    @DeleteMapping("/pupil/{id]")
+    @DeleteMapping("/class/{id]")
     public ResponseEntity<?> deleteSchoolClass(@PathVariable("id") String id) {
         return ok(classesService.deleteSchoolClass(id));
     }

@@ -38,9 +38,9 @@ public class PupilController {
         return ok(pupilsService.getPupilsPage(pagenum, pagesize, sort, group));
     }
 
-    @GetMapping("/pupil")
+    @GetMapping("/pupils")
     public ResponseEntity<?> getPupilByNameSurname(@RequestParam(name = "name", required = true) String name,
-                                                          @RequestParam(name = "surname", required = true) String surname) {
+                                                   @RequestParam(name = "surname", required = true) String surname) {
 
         return ok(pupilsService.getPupilsByFirstnameLastname(name, surname));
     }

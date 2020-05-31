@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 import java.util.Date;
 
 @EqualsAndHashCode(callSuper = true)
-@Builder
+@SuperBuilder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

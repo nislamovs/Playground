@@ -51,7 +51,7 @@ public class MarksService {
     }
 
     @SneakyThrows
-    public List<SubjectMarkDTO> getMarksPage(String pagenum, String pagesize, String sort, String group) {
+    public List<SubjectMarkDTO> retrieveMarksPage(String pagenum, String pagesize, String sort, String group) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_PAGE_RETRIEVAL_QUERY);
@@ -68,7 +68,7 @@ public class MarksService {
     }
 
     @SneakyThrows
-    public List<SubjectMarkDTO> getMarksByPupilId(String pupilId) {
+    public List<SubjectMarkDTO> retrieveMarksByPupilId(String pupilId) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_GET_BY_ID_RETRIEVAL_QUERY);
@@ -82,7 +82,7 @@ public class MarksService {
     }
 
     @SneakyThrows
-    public List<SubjectMarkDTO> getMarksByDate(String startDate, String endDate) {
+    public List<SubjectMarkDTO> getMarksByDateInterval(String startDate, String endDate) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_GET_BY_DATE_RETRIEVAL_QUERY);

@@ -7,7 +7,7 @@ import lombok.experimental.SuperBuilder;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@SuperBuilder(toBuilder = true, builderMethodName = "superBuilder", buildMethodName = "superBuild")
+@SuperBuilder(toBuilder = true)
 public class TeacherDAO extends PersonDAO {
 
     private Long class_id;

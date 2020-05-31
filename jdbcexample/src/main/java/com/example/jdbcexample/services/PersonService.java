@@ -55,13 +55,13 @@ public class PersonService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                PersonDAO person = PersonDAO.superBuilder()
+                PersonDAO person = PersonDAO.builder()
                         .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
                         .email(rs.getString("email"))
                         .birthdate(rs.getDate("birthdate"))
-                        .superBuild();
+                        .build();
 
                 persons.add(person);
             }

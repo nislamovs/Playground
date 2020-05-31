@@ -166,7 +166,7 @@ public class PupilsService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                PupilDAO pupil = PupilDAO.superBuilder()
+                PupilDAO pupil = PupilDAO.builder()
                         .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
@@ -174,7 +174,7 @@ public class PupilsService {
                         .birthdate(rs.getDate("birthdate"))
                         .class_head_id(rs.getLong("class_head_id"))
                         .class_id(rs.getLong("class_id"))
-                        .superBuild();
+                        .build();
 
                 pupils.add(pupil);
             }

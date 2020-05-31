@@ -10,7 +10,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@SuperBuilder(toBuilder = true, builderMethodName = "superBuilder", buildMethodName = "superBuild")
+@SuperBuilder(toBuilder = true)
 public class PupilDAO extends PersonDAO {
 
     @Size(max = 6, min = 4)

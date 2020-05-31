@@ -1,18 +1,13 @@
 package com.example.jdbcexample.controllers;
 
-import com.example.jdbcexample.dao.SubjectMarkDAO;
-import com.example.jdbcexample.dto.PupilDTO;
 import com.example.jdbcexample.dto.SubjectMarkDTO;
 import com.example.jdbcexample.services.MarksService;
-import com.example.jdbcexample.services.PupilsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.List;
 
 import static java.lang.Long.parseLong;
 import static org.springframework.http.ResponseEntity.ok;
@@ -31,9 +26,9 @@ public class MarksController {
         return ok(marksService.getAllMarks());
     }
 
-    @GetMapping(path = "/mark", params = { "pupilId" })
-    public ResponseEntity<?> getMarks(@RequestParam(value="pupilId") String pupilId) {
-        return ok(marksService.getMarksByPupilId(pupilId));
+    @GetMapping(path = "/mark/{id}")
+    public ResponseEntity<?> getMarksById(@PathVariable(value="id") String pupilId) {
+        return ok(marksService.retrieveMarksByPupilId(pupilId));
     }
 
     @GetMapping("/mark")
@@ -42,14 +37,14 @@ public class MarksController {
                                           @RequestParam(name = "sort", required = true) String sort,
                                           @RequestParam(name = "group", required = true) String group) {
 
-        return ok(marksService.getMarksPage(pagenum, pagesize, sort, group));
+        return ok(marksService.retrieveMarksPage(pagenum, pagesize, sort, group));
     }
 
-    @GetMapping("/mark")
+    @GetMapping("/marks")
     public ResponseEntity<?> getMarksByDate(@RequestParam(name = "startDate", required = true) String startDate,
                                             @RequestParam(name = "endDate", required = true) String endDate) {
 
-        return ok(marksService.getMarksByDate(startDate, endDate));
+        return ok(marksService.getMarksByDateInterval(startDate, endDate));
     }
 
     @PostMapping("/mark")

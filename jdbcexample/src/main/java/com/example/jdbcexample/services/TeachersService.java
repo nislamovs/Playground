@@ -150,7 +150,7 @@ public class TeachersService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                TeacherDAO teacher = TeacherDAO.superBuilder()
+                TeacherDAO teacher = TeacherDAO.builder()
                         .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
@@ -159,7 +159,7 @@ public class TeachersService {
                         .is_head(rs.getBoolean("id_head"))
                         .class_id(rs.getLong("class_id"))
                         .subject_id(rs.getLong("subject_id"))
-                        .superBuild();
+                        .build();
 
                 teachers.add(teacher);
             }
