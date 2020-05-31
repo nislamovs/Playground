@@ -1,24 +1,22 @@
 package com.example.jdbcexample.dao;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
 
+import javax.validation.constraints.Size;
 import java.util.Date;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PupilDAO {
+@SuperBuilder(toBuilder = true, builderMethodName = "superBuilder", buildMethodName = "superBuild")
+public class PupilDAO extends PersonDAO {
 
-    private Long id;
-    private String firstname;
-    private String lastname;
-    private String email;
+    @Size(max = 6, min = 4)
     private String gender;
-    private Date birthdate;
+
     private Long class_id;
+
     private Long class_head_id;
 }

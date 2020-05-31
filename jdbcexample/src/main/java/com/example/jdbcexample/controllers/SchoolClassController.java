@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.websocket.server.PathParam;
 import java.util.List;
 
@@ -45,20 +46,17 @@ public class SchoolClassController {
     }
 
     @PostMapping("/pupil")
-    public ResponseEntity<?> newSchoolClass() {
-
-        return created(classesService.addNewSchoolClass());
+    public ResponseEntity<?> newSchoolClass(@Valid @RequestBody SchoolClassDTO newSchoolClass) {
+        return ok(classesService.addNewSchoolClass(newSchoolClass));
     }
 
     @PutMapping("/pupil")
-    public ResponseEntity<?> editSchoolClass() {
-
-        return ok(classesService.editSchoolClassData());
+    public ResponseEntity<?> editSchoolClass(@Valid @RequestBody SchoolClassDTO schoolClass) {
+        return ok(classesService.editSchoolClassData(schoolClass));
     }
 
     @DeleteMapping("/pupil/{id]")
     public ResponseEntity<?> deleteSchoolClass(@PathVariable("id") String id) {
-
         return ok(classesService.deleteSchoolClass(id));
     }
 }

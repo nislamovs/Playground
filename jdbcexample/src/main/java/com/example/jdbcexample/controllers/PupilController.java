@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.websocket.server.PathParam;
 import java.util.List;
 
@@ -50,15 +51,15 @@ public class PupilController {
     }
 
     @PostMapping("/pupil")
-    public ResponseEntity<?> newPupil() {
+    public ResponseEntity<?> newPupil(@Valid @RequestBody PupilDTO newPupil) {
 
-        return created(pupilsService.addNewPupil());
+        return ok(pupilsService.addNewPupil(newPupil));
     }
 
     @PutMapping("/pupil")
-    public ResponseEntity<?> editPupil() {
+    public ResponseEntity<?> editPupil(@Valid @RequestBody PupilDTO pupil) {
 
-        return ok(pupilsService.editPupilData());
+        return ok(pupilsService.editPupilData(pupil));
     }
 
     @DeleteMapping("/pupil/{id]")

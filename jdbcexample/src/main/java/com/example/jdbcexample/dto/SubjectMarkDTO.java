@@ -15,8 +15,8 @@ import java.util.Date;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SubjectMarkDTO extends AbstractDTO {
 
-    private Long subject_id;
-    private Long pupil_id;
+    private String subject_id;
+    private String pupil_id;
     private Date date;
     private Integer value;
 }

@@ -17,5 +17,5 @@ public class SubjectMarkDAO {
     private Long subjectId;
     private Long pupilId;
     private Date date;
-    private int value;
+    private Integer value;
 }

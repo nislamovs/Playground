@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Long.parseLong;
+import static java.lang.String.valueOf;
 
 @Service
 @RequiredArgsConstructor
@@ -103,8 +104,8 @@ public class MarksService {
 
         int i = 1;
         stmt.setRowId(i++, null);
-        stmt.setLong(i++, mark.getSubject_id());
-        stmt.setLong(i++, mark.getPupil_id());
+        stmt.setLong(i++, parseLong(mark.getSubject_id()));
+        stmt.setLong(i++, parseLong(mark.getPupil_id()));
         stmt.setDate(i++, (Date) mark.getDate());
         stmt.setInt(i++, mark.getValue());
 
@@ -112,19 +113,19 @@ public class MarksService {
 
         Long markId = executeInsert(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
-    public AbstractDTO editMark(SubjectMarkDAO mark) {
+    public AbstractDTO editMark(SubjectMarkDTO mark) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(MARKS_EXISTING_MARK_UPDATE_QUERY);
 
         int i = 1;
-        stmt.setLong(i++, mark.getId());
-        stmt.setLong(i++, mark.getSubjectId());
-        stmt.setLong(i++, mark.getPupilId());
+        stmt.setLong(i++, parseLong(mark.getId()));
+        stmt.setLong(i++, parseLong(mark.getSubject_id()));
+        stmt.setLong(i++, parseLong(mark.getPupil_id()));
         stmt.setDate(i++, (Date) mark.getDate());
         stmt.setInt(i++, mark.getValue());
 
@@ -132,7 +133,7 @@ public class MarksService {
 
         Long markId = executeUpdate(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows

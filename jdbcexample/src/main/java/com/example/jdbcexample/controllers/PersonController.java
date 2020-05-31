@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 
 import static org.springframework.http.ResponseEntity.ok;
 
@@ -22,7 +24,7 @@ public class PersonController {
     private final PersonService personService;
 
     @GetMapping("/person")
-    public ResponseEntity<?> findPerson(@RequestParam(value = "email", required = true) String email) {
+    public ResponseEntity<?> findPerson(@RequestParam(value = "email", required = true) @NotBlank @Email String email) {
         return ok(personService.findPersonByEmail(email));
     }
 }

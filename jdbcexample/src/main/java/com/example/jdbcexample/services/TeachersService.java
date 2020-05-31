@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Long.parseLong;
+import static java.lang.String.valueOf;
 
 @Service
 @RequiredArgsConstructor
@@ -98,17 +99,17 @@ public class TeachersService {
 
         Long markId = executeInsert(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
-    public AbstractDTO editPupilData(TeacherDTO teacher) {
+    public AbstractDTO editTeacherData(TeacherDTO teacher) {
 
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(TEACHERS_EXISTING_TEACHER_UPDATE_QUERY);
 
         int i = 1;
-        stmt.setLong(i++, teacher.getId());
+        stmt.setLong(i++, parseLong(teacher.getId()));
         stmt.setString(i++, teacher.getFirstname());
         stmt.setString(i++, teacher.getLastname());
         stmt.setString(i++, teacher.getEmail());
@@ -121,7 +122,7 @@ public class TeachersService {
 
         Long markId = executeUpdate(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
@@ -149,7 +150,7 @@ public class TeachersService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                TeacherDAO teacher = TeacherDAO.builder()
+                TeacherDAO teacher = TeacherDAO.superBuilder()
                         .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
@@ -158,7 +159,7 @@ public class TeachersService {
                         .is_head(rs.getBoolean("id_head"))
                         .class_id(rs.getLong("class_id"))
                         .subject_id(rs.getLong("subject_id"))
-                        .build();
+                        .superBuild();
 
                 teachers.add(teacher);
             }

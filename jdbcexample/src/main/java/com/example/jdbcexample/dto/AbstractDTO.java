@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.FutureOrPresent;
 import java.time.LocalDateTime;
 
 @Builder
@@ -16,7 +17,9 @@ import java.time.LocalDateTime;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class AbstractDTO {
 
-    private Long id;
+    private String id;
     private String status;
+
+    @FutureOrPresent
     private LocalDateTime dateTime;
 }

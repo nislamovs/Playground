@@ -1,25 +1,16 @@
 package com.example.jdbcexample.dao;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
 
-import java.util.Date;
-
-
+@EqualsAndHashCode(callSuper = true)
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TeacherDAO {
+@SuperBuilder(toBuilder = true, builderMethodName = "superBuilder", buildMethodName = "superBuild")
+public class TeacherDAO extends PersonDAO {
 
-    private Long id;
-    private String firstname;
-    private String lastname;
-    private String email;
-    private Date birthdate;
     private Long class_id;
     private Long subject_id;
-    private boolean is_head;
+    private Boolean is_head;
 }

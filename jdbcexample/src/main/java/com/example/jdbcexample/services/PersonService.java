@@ -1,11 +1,8 @@
 package com.example.jdbcexample.services;
 
 import com.example.jdbcexample.dao.PersonDAO;
-import com.example.jdbcexample.dao.SubjectMarkDAO;
 import com.example.jdbcexample.dto.PersonDTO;
-import com.example.jdbcexample.dto.TeacherDTO;
 import com.example.jdbcexample.mappers.PersonMapper;
-import com.example.jdbcexample.mappers.TeacherMapper;
 import lombok.Cleanup;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
@@ -21,8 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static java.lang.Long.parseLong;
-
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -32,15 +27,15 @@ public class PersonService {
     private final PersonMapper mapper;
 
     private final String PERSONS_RETRIEVAL_QUERY = "select *  from pupils where email = ?\n" +
-                                                   "union all\n" +
-                                                   "select *  from teachers where email = ?";
+            "union all\n" +
+            "select *  from teachers where email = ?";
 
     @SneakyThrows
     public List<PersonDTO> findPersonByEmail(String email) {
         @Cleanup Connection conn = getConnection();
         @Cleanup PreparedStatement stmt = conn.prepareStatement(PERSONS_RETRIEVAL_QUERY);
 
-        System.out.println(">>>   "+stmt.toString());
+        System.out.println(">>>   " + stmt.toString());
 
         int i = 1;
         stmt.setString(i++, email);
@@ -60,15 +55,13 @@ public class PersonService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                PersonDAO person = PersonDAO.builder()
+                PersonDAO person = PersonDAO.superBuilder()
+                        .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
                         .email(rs.getString("email"))
-                        .gender(rs.getString("gender"))
                         .birthdate(rs.getDate("birthdate"))
-                        .build();
-
-                person.setId(rs.getLong("id"));
+                        .superBuild();
 
                 persons.add(person);
             }

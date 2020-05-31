@@ -1,5 +1,6 @@
 package com.example.jdbcexample.services;
 
+import com.example.jdbcexample.dao.PersonDAO;
 import com.example.jdbcexample.dao.PupilDAO;
 import com.example.jdbcexample.dto.AbstractDTO;
 import com.example.jdbcexample.dto.PupilDTO;
@@ -18,6 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
+import static java.lang.String.valueOf;
 import static java.lang.Long.parseLong;
 
 @Service
@@ -113,7 +115,7 @@ public class PupilsService {
 
         Long markId = executeInsert(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(String.valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
@@ -123,7 +125,7 @@ public class PupilsService {
         @Cleanup PreparedStatement stmt = conn.prepareStatement(PUPILS_EXISTING_PUPIL_UPDATE_QUERY);
 
         int i = 1;
-        stmt.setLong(i++, pupil.getId());
+        stmt.setLong(i++, parseLong(pupil.getId()));
         stmt.setString(i++, pupil.getFirstname());
         stmt.setString(i++, pupil.getLastname());
         stmt.setString(i++, pupil.getEmail());
@@ -136,7 +138,7 @@ public class PupilsService {
 
         Long markId = executeUpdate(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
@@ -164,7 +166,7 @@ public class PupilsService {
         try {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                PupilDAO pupil = PupilDAO.builder()
+                PupilDAO pupil = PupilDAO.superBuilder()
                         .id(rs.getLong("id"))
                         .firstname(rs.getString("firstname"))
                         .lastname(rs.getString("lastname"))
@@ -172,7 +174,7 @@ public class PupilsService {
                         .birthdate(rs.getDate("birthdate"))
                         .class_head_id(rs.getLong("class_head_id"))
                         .class_id(rs.getLong("class_id"))
-                        .build();
+                        .superBuild();
 
                 pupils.add(pupil);
             }

@@ -11,6 +11,7 @@ import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 import static java.lang.Long.parseLong;
@@ -52,18 +53,18 @@ public class MarksController {
     }
 
     @PostMapping("/mark")
-    public ResponseEntity<?> addMark(@RequestBody SubjectMarkDAO mark) {
+    public ResponseEntity<?> addMark(@Valid @RequestBody SubjectMarkDTO mark) {
         return ok(marksService.addNewMark(mark));
     }
 
     @PutMapping("/mark/{id}")
-    public ResponseEntity<?> editMark(@RequestBody SubjectMarkDAO mark, @PathVariable String id) {
-        mark.setId(parseLong(id));
+    public ResponseEntity<?> editMark(@Valid @RequestBody SubjectMarkDTO mark, @PathVariable String id) {
+        mark.setId(id);
         return ok(marksService.editMark(mark));
     }
 
     @DeleteMapping("/mark/{id}")
-    public ResponseEntity<?> removeMark(@RequestBody SubjectMarkDAO mark, @PathVariable String id) {
+    public ResponseEntity<?> removeMark(@PathVariable String id) {
         return ok(marksService.deleteMark(id));
     }
 }

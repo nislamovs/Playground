@@ -1,17 +1,13 @@
 package com.example.jdbcexample.controllers;
 
-import com.example.jdbcexample.dto.PupilDTO;
 import com.example.jdbcexample.dto.SubjectDTO;
 import com.example.jdbcexample.services.SubjectsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import javax.validation.Valid;
 
-import javax.websocket.server.PathParam;
-import java.util.List;
-
-import static org.springframework.http.ResponseEntity.created;
 import static org.springframework.http.ResponseEntity.ok;
 
 
@@ -43,20 +39,17 @@ public class SubjectController {
     }
 
     @PostMapping("/subject")
-    public ResponseEntity<?> newSubject() {
-
-        return created(subjectsService.addNewSubject());
+    public ResponseEntity<?> newSubject(@Valid @RequestBody SubjectDTO newSubject) {
+        return ok(subjectsService.addNewSubject(newSubject));
     }
 
     @PutMapping("/subject")
-    public ResponseEntity<?> editSubject() {
-
-        return ok(subjectsService.editSubjectData());
+    public ResponseEntity<?> editSubject(@Valid @RequestBody SubjectDTO subject) {
+        return ok(subjectsService.editSubjectData(subject));
     }
 
     @DeleteMapping("/subject/{id]")
     public ResponseEntity<?> deleteSubject(@PathVariable("id") String id) {
-
         return ok(subjectsService.deleteSubject(id));
     }
 

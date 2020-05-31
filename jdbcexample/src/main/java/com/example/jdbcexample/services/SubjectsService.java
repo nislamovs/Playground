@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Long.parseLong;
+import static java.lang.String.valueOf;
 
 @Service
 @RequiredArgsConstructor
@@ -93,7 +94,7 @@ public class SubjectsService {
 
         Long markId = executeInsert(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
@@ -103,7 +104,7 @@ public class SubjectsService {
         @Cleanup PreparedStatement stmt = conn.prepareStatement(SUBJECTS_EXISTING_SUBJECT_UPDATE_QUERY);
 
         int i = 1;
-        stmt.setLong(i++, subject.getId());
+        stmt.setLong(i++, parseLong(subject.getId()));
         stmt.setLong(i++, subject.getTeacher_id());
         stmt.setString(i++, subject.getName());
 
@@ -112,7 +113,7 @@ public class SubjectsService {
 
         Long markId = executeUpdate(stmt);
 
-        return AbstractDTO.builder().id(markId).dateTime(LocalDateTime.now()).build();
+        return AbstractDTO.builder().id(valueOf(markId)).dateTime(LocalDateTime.now()).build();
     }
 
     @SneakyThrows
