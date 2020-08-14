@@ -1,0 +1,12 @@
+insert into teachers (id, firstname, lastname, email, birthdate) values (1, 'Marshall', 'Dalmon', 'mdalmon0@gmail.com', TO_DATE('09/24/1982', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (2, 'Malvina', 'Woodworth', 'mwoodworth1@gmail.com', TO_DATE('05/03/1970', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (3, 'Ludovika', 'Dagon', 'ldagon2@inbox.lv', TO_DATE('02/25/1963', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (4, 'Jameson', 'Ludlom', 'jludlom3@inbox.lv', TO_DATE('02/14/1979', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (5, 'Melonie', 'Doveston', 'mdoveston4@youku.com', TO_DATE('03/22/1971', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (6, 'Arin', 'Marcinkowski', 'amarcinkowski5@inbox.lv', TO_DATE('08/12/1970', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (7, 'Lise', 'Prevost', 'lprevost6@craigslist.org', TO_DATE('07/15/1982', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (8, 'Carine', 'Willimott', 'cwillimott7@yahoo.com', TO_DATE('04/04/1962', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (9, 'Thorn', 'Joscelin', 'tjoscelin8@hibu.com', TO_DATE('08/17/1964', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (10, 'Kinsley', 'Bullingham', 'kbullingham9@boston.com', TO_DATE('07/21/1973', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (11, 'Torry', 'Croke', 'tcrokea@networksolutions.com', TO_DATE('08/31/1981', 'DD/MM/YYYY'));
+insert into teachers (id, firstname, lastname, email, birthdate) values (12, 'Adrian', 'Dobrowolski', 'adobrowolskib@mail.ru', TO_DATE('08/19/1972', 'DD/MM/YYYY'));
