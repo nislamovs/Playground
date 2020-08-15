@@ -1,4 +1,4 @@
-# Sprinfdata stored procedure launch example
+# Springdata stored procedure launch example
 
 #### Build:
 
