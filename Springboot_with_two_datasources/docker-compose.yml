@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+
+  mysql1:
+    container_name: "mysql1"
+    image: mysql:5.7.22
+    command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=30M
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_DATABASE=db1
+    volumes:
+      - "/etc/timezone:/etc/timezone:ro"                    # fix docker container date/time
+      - "/etc/localtime:/etc/localtime:ro"
+      - "./volume1/mysql_plugins:/usr/lib/mysql/plugin:rw"
+      - "./volume1/mysql_files:/var/lib/mysql-files:rw"
+      - "./volume1/mysql-dump:/docker-entrypoint-initdb.d:rw"
+    restart: always
+    ports:
+      - "3306:3306"
+
+  mysql2:
+    container_name: "mysql2"
+    image: mysql:5.7.22
+    command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=30M
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_DATABASE=db2
+    volumes:
+      - "/etc/timezone:/etc/timezone:ro"                    # fix docker container date/time
+      - "/etc/localtime:/etc/localtime:ro"
+      - "./volume2/mysql_plugins:/usr/lib/mysql/plugin:rw"
+      - "./volume2/mysql_files:/var/lib/mysql-files:rw"
+      - "./volume2/mysql-dump:/docker-entrypoint-initdb.d:rw"
+    restart: always
+    ports:
+      - "3307:3306"
+
+  app:
+    container_name: "backend"
+    hostname: localhost
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql1
+      - mysql2
+
+  adminer:
+    container_name: "adminer"
+    image: adminer
+    restart: always
+    ports:
+      - "8081:8080"
