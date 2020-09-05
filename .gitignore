@@ -49,3 +49,5 @@ Thumbs.db
 
 **/.gradle/**
 **/servlets
+./gradlew
+./gradlew.bat
