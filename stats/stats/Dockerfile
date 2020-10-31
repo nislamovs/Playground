@@ -8,7 +8,10 @@ EXPOSE 8000
 
 VOLUME /tmp
 EXPOSE 8080
-#./jdbcexample/
+
+#jmx console
+EXPOSE 1099
+
 ARG DEPENDENCY=build/dependency
 COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
 COPY ${DEPENDENCY}/META-INF /app/META-INF

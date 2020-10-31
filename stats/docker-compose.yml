@@ -10,6 +10,7 @@ services:
     ports:
       - "8080:8080"
       - "8000:8000"     # debugging
+      - "1099:1099"     # jmx
 
   prometheus:
     container_name: "prometheus"
