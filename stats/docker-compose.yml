@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  app:
+    container_name: "stats"
+    hostname: localhost
+    build:
+      context: ./stats/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8000:8000"     # debugging
+
+  prometheus:
+    container_name: "prometheus"
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    environment:
+      GF_SERVER_ROOT_URL: http://localhost:3000
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: secret
+
+  grafana:
+    container_name: "grafana"
+    image: grafana/grafana:4.1.1
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./volumes/grafana-storage:/var/lib/grafana
+      - ./grafana/provisioning/:/etc/grafana/provisioning
+    environment:
+      GF_SERVER_ROOT_URL: http://localhost:3000
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: secret
