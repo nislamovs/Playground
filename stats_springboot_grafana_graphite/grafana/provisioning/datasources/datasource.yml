@@ -1,0 +1,10 @@
+datasources:
+   - name: Graphite
+     type: Graphite
+     access: proxy
+#     database: meteo
+#     user: influx
+#     password: influx
+     url: http://graphite:80
+     isDefault: true
+     editable: true

@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  app:
+    container_name: "stats"
+    hostname: localhost
+    build:
+      context: ./stats/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8000:8000"     # debugging
+
+  graphite:
+    container_name: "graphite"
+    image: graphiteapp/graphite-statsd
+    restart: always
+    ports:
+      - "80:80"
+      - "2003:2003"
+      - "2004:2004"
+      - "2023:2023"
+      - "2024:2024"
+      - "8125:8125/udp"
+      - "8126:8126"
+    volumes:
+      - ./graphite/configs:/opt/graphite/conf
+      - ./graphite/data:/opt/graphite/storage
+      - ./graphite/opt:/opt/graphite/statsd
+
+  grafana:
+    container_name: "grafana"
+    image: grafana/grafana:4.1.1
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./volumes/grafana-storage:/var/lib/grafana
+      - ./grafana/provisioning/:/etc/grafana/provisioning
+    environment:
+      GF_SERVER_ROOT_URL: http://localhost:3000
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: secret
