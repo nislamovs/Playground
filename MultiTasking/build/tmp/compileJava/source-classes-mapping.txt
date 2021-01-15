@@ -1,5 +1,7 @@
 com/example/multitasking/multithreadingBasics/parallelProgramming/SumOfNumberUsingRunnableWithLambda.java
  com.example.multitasking.multithreadingBasics.parallelProgramming.SumOfNumberUsingRunnableWithLambda
+com/example/multitasking/concurrentUtilities/BlockingQueue/PriorityBlockingQueueExample.java
+ com.example.multitasking.concurrentUtilities.BlockingQueue.PriorityBlockingQueueExample
 com/example/multitasking/multithreadingBasics/Deadlock_liveLock/BankAccount.java
  com.example.multitasking.multithreadingBasics.Deadlock_liveLock.BankAccount
 com/example/multitasking/multithreadingBasics/volatileExample/VolatileExample.java
@@ -14,24 +16,41 @@ com/example/multitasking/Basic/SupervisorExampleParallel.java
  com.example.multitasking.Basic.SupervisorExampleParallel
 com/example/multitasking/LambdaExpressions/callable/SumOfNumberUsingCallable.java
  com.example.multitasking.LambdaExpressions.callable.SumOfNumberUsingCallable
+com/example/multitasking/concurrentUtilities/CyclicBarrier/SumOfNumbersUsingCyclicBarrier.java
+ com.example.multitasking.concurrentUtilities.CyclicBarrier.SumOfNumbersUsingCyclicBarrier
+com/example/multitasking/ConcurrentCollections/NavigableMapExample.java
+ com.example.multitasking.ConcurrentCollections.NavigableMapExample
 com/example/multitasking/multithreadingBasics/Semaphores/BoundCollection.java
  com.example.multitasking.multithreadingBasics.Semaphores.BoundCollection
 com/example/multitasking/multithreadingBasics/synchronizedExample/FastFoodRestauraunt.java
  com.example.multitasking.multithreadingBasics.synchronizedExample.FastFoodRestauraunt
+com/example/multitasking/concurrentUtilities/BlockingQueue/LinkedBlockingQueueExample.java
+ com.example.multitasking.concurrentUtilities.BlockingQueue.LinkedBlockingQueueExample
 com/example/multitasking/multithreadingBasics/Deadlock_liveLock/BankAccountWithLock.java
  com.example.multitasking.multithreadingBasics.Deadlock_liveLock.BankAccountWithLock
 com/example/multitasking/multithreadingBasics/synchronizedExample/FastFoodRestaurauntSynchronisedBlock.java
  com.example.multitasking.multithreadingBasics.synchronizedExample.FastFoodRestaurauntSynchronisedBlock
-com/example/multitasking/multithreadingBasics/Executors/ExecutorRunnable.java
- com.example.multitasking.multithreadingBasics.Executors.ExecutorRunnable
+com/example/multitasking/multithreadingBasics/Executors/ExecutorCallable.java
+ com.example.multitasking.multithreadingBasics.Executors.ExecutorCallable
+com/example/multitasking/ConcurrentCollections/TraditionalVsConcurrentExample.java
+ com.example.multitasking.ConcurrentCollections.TraditionalVsConcurrentExample
+com/example/multitasking/concurrentUtilities/BlockingQueue/SynchronousQueueExample.java
+ com.example.multitasking.concurrentUtilities.BlockingQueue.SynchronousQueueExample
 com/example/multitasking/LambdaExpressions/helloworld/HelloWorldTraditional.java
  com.example.multitasking.LambdaExpressions.helloworld.HelloWorldTraditional
+com/example/multitasking/concurrentUtilities/BlockingQueue/ArrayBlockingQueueExample.java
+ com.example.multitasking.concurrentUtilities.BlockingQueue.ArrayBlockingQueueExample
 com/example/multitasking/multithreadingBasics/Deadlock_liveLock/BankAccountWithLiveLock.java
  com.example.multitasking.multithreadingBasics.Deadlock_liveLock.BankAccountWithLiveLock
 com/example/multitasking/LambdaExpressions/functionalInterface/ConcatenateTraditional.java
  com.example.multitasking.LambdaExpressions.functionalInterface.ConcatenateTraditional
+com/example/multitasking/multithreadingBasics/CallableAndFuture/SumOfNumbersUsingCallable.java
+ com.example.multitasking.multithreadingBasics.CallableAndFuture.SumOfNumbersUsingCallable
 com/example/multitasking/LambdaExpressions/functionalInterface/ConcatenateInterface.java
  com.example.multitasking.LambdaExpressions.functionalInterface.ConcatenateInterface
+com/example/multitasking/concurrentUtilities/BlockingQueue/DelayQueueExample.java
+ com.example.multitasking.concurrentUtilities.BlockingQueue.DelayQueueExample
+ com.example.multitasking.concurrentUtilities.BlockingQueue.DelayTask
 com/example/multitasking/multithreadingBasics/Locks/BankTransfer.java
  com.example.multitasking.multithreadingBasics.Locks.BankTransfer
 com/example/multitasking/LambdaExpressions/runnable/RunnableExample.java
@@ -39,6 +58,8 @@ com/example/multitasking/LambdaExpressions/runnable/RunnableExample.java
  com.example.multitasking.LambdaExpressions.runnable.RunnableExample$1
 com/example/multitasking/LambdaExpressions/functionalInterface/IncrementByFiveLambda.java
  com.example.multitasking.LambdaExpressions.functionalInterface.IncrementByFiveLambda
+com/example/multitasking/ConcurrentCollections/ConcurrentHashMapExample.java
+ com.example.multitasking.ConcurrentCollections.ConcurrentHashMapExample
 com/example/multitasking/multithreadingBasics/WaitNotifyNotifyAll/CourseNotifier.java
  com.example.multitasking.multithreadingBasics.WaitNotifyNotifyAll.Course
  com.example.multitasking.multithreadingBasics.WaitNotifyNotifyAll.CourseNotifier
@@ -48,6 +69,8 @@ com/example/multitasking/Basic/SupervisorExampleSequential.java
  com.example.multitasking.Basic.SupervisorExampleSequential
  com.example.multitasking.Basic.Worker1
  com.example.multitasking.Basic.Worker2
+com/example/multitasking/concurrentUtilities/CountDownLatch/SumOfNumbersUsingLatch.java
+ com.example.multitasking.concurrentUtilities.CountDownLatch.SumOfNumbersUsingLatch
 com/example/multitasking/MultitaskingApplication.java
  com.example.multitasking.MultitaskingApplication
 com/example/multitasking/LambdaExpressions/functionalInterface/ConcatenateLambda.java
@@ -58,9 +81,7 @@ com/example/multitasking/LambdaExpressions/functionalInterface/IncrementByFiveIn
  com.example.multitasking.LambdaExpressions.functionalInterface.IncrementByFiveInterface
 com/example/multitasking/LambdaExpressions/helloworld/HelloWorldLambda.java
  com.example.multitasking.LambdaExpressions.helloworld.HelloWorldLambda
+com/example/multitasking/multithreadingBasics/Executors/ExecutorRunnable.java
+ com.example.multitasking.multithreadingBasics.Executors.ExecutorRunnable
 com/example/multitasking/LambdaExpressions/helloworld/HelloWorldInterface.java
  com.example.multitasking.LambdaExpressions.helloworld.HelloWorldInterface
-com/example/multitasking/multithreadingBasics/Executors/ExecutorCallable.java
- com.example.multitasking.multithreadingBasics.Executors.ExecutorCallable
-com/example/multitasking/multithreadingBasics/CallableAndFuture/SumOfNumbersUsingCallable.java
- com.example.multitasking.multithreadingBasics.CallableAndFuture.SumOfNumbersUsingCallable
