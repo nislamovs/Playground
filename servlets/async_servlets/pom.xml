@@ -10,7 +10,7 @@
 	<name>Drugstore</name>
 
 	<properties>
-		<tomcat.version>8.0.28</tomcat.version>
+		<tomcat.version>8.5.61</tomcat.version>
 	</properties>
 
 	<build>
