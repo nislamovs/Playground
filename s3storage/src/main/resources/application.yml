@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: eu-central-1
+    stack:
+      auto: false
+    credentials:
+      access-key: ${s3accesskey}
+      secret-key: ${s3secretkey}
+
+application:
+  bucket:
+    name: ${testbucket}

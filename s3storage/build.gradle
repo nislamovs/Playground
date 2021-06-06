@@ -1,0 +1,80 @@
+plugins {
+	id 'application'
+	id 'org.springframework.boot' version '2.5.0'
+	id "io.freefair.lombok" version "4.1.6"
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'com.palantir.docker' version '0.25.0'
+	id 'com.palantir.docker-run' version '0.25.0'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+ext {
+	// set('springCloudVersion', "Hoxton.SR9")
+	set('springCloudVersion', "Finchley.SR1")
+}
+
+mainClassName = 'S3storageApplication'
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.cloud:spring-cloud-starter-aws'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	compile 'commons-io:commons-io:2.7'
+
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+test {
+	useJUnitPlatform()
+}
+
+bootJar {
+	archiveBaseName = 's3Storage'
+	archiveVersion =  '1.0.0'
+}
+
+task unpack(type: Copy) {
+	dependsOn bootJar
+	from(zipTree("build/libs/s3Storage-1.0.0.jar"))
+	into("build/dependency")
+}
+
+docker {
+	name "s3Storage"
+//	files "build/libs/${bootJar.archiveFileName.get()}"
+//	buildArgs([JAR_FILE: bootJar.archiveFileName.get()])
+	copySpec.from(tasks.unpack.outputs).into("dependency")
+	buildArgs(['DEPENDENCY': "dependency"])
+}
+
+dockerRun {
+	name  "s3Storage"
+	image "s3Storage-1.0.0"
+	ports '8082:8080'
+	clean true
+}

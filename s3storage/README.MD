@@ -1,0 +1,1 @@
+Springboot and S3 storage usage example
