@@ -44,7 +44,6 @@ public class S3StorageSoftwareAWSSDKImpl implements S3Storage {
     System.out.println("S3StorageSoftwareAWSSDKImpl [v2] bean loaded.");
   }
 
-  @SneakyThrows
   public String uploadFile(FileDto file) {
     String filename = System.currentTimeMillis() + "_" + file.getFilename();
 
@@ -58,7 +57,6 @@ public class S3StorageSoftwareAWSSDKImpl implements S3Storage {
     return format("File [%s] uploaded successfully.", filename);
   }
 
-  @SneakyThrows
   public FileDto downloadFile(String filename) {
 
     GetObjectRequest request = GetObjectRequest.builder()
