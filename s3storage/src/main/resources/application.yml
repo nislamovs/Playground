@@ -5,9 +5,9 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: ${s3accesskey}
-      secret-key: ${s3secretkey}
+      access-key: AKIAYOAGHPLJTWZLYTQJ
+      secret-key: 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
 
 application:
   bucket:
-    name: ${testbucket}
+    name: testbucket1231312
