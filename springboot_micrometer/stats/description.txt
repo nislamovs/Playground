@@ -1,0 +1,11 @@
+In prometheus :
+
+#Calls per second for the last 60 minutes
+irate(example_tps_service1_seconds_count[60m])
+
+
+#All numbers, even numbers, odd numbers - all three values on the same graph
+{__name__=~"processed_numbers_total|even_number_total|odd_number_total"}
+
+#Substraction of two metrics
+sum by (value) ({__name__=~"even_number_total"}) + sum by (value) ({__name__=~"odd_number_total"}) * -1

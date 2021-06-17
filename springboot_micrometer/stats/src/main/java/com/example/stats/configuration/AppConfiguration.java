@@ -1,6 +1,7 @@
 package com.example.stats.configuration;
 
 
+import io.micrometer.core.aop.CountedAspect;
 import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryCustomizer;
@@ -9,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
-//@EnableAspectJAutoProxy
+//@EnableAspectJAutoProxy(proxyTargetClass = true)
 public class AppConfiguration {
 
     @Bean
@@ -17,6 +18,10 @@ public class AppConfiguration {
         return new TimedAspect(registry);
     }
 
+    @Bean
+    public CountedAspect countedAspect(MeterRegistry registry) {
+        return new CountedAspect(registry);
+    }
 
     //Add this in case You want to place @Timed over restController endpoints
 
