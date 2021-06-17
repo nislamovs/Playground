@@ -9,3 +9,8 @@ irate(example_tps_service1_seconds_count[60m])
 
 #Substraction of two metrics
 sum by (value) ({__name__=~"even_number_total"}) + sum by (value) ({__name__=~"odd_number_total"}) * -1
+
+#Substraction of two metrics from different nodes
+sum by (value) (even_number_total{instance="app1:8080"}) + sum by (value) (even_number_total{instance="app2:8080"}) * -1
+
+(even_number_total{instance="app1:8080"}) - on (value) (even_number_total{instance="app2:8080"})

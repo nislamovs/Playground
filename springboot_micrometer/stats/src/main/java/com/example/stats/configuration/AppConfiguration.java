@@ -34,7 +34,7 @@ public class AppConfiguration {
 //                .commonTags("method", "yoyoy app")
 //                .commonTags("outcome", "yoyoy app")
 //                .commonTags("status", "yoyoy app")
-//                .commonTags("uri", "yoyoy app")
+//                .commonTags("uri", "yoyoy app");
 //    }
 
 }

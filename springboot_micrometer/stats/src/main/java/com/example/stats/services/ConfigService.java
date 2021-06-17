@@ -14,6 +14,7 @@ public class ConfigService {
     private final NumberRegister numberRegister;
 
     @Timed(description = "TPS measurement point [service #1]", value = "example.tps.service1", extraTags = {"tps", "service1"})
+    @Counted("hello-world")
     public void launch() {
         System.out.println("service #1 launched!");
     }
