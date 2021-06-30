@@ -33,4 +33,11 @@ public class AppConfigv2 {
           .build();
   }
 
+//  use this with credentials stored in ~/.aws/credentials file
+//  @Bean
+//  public S3Client s3Client() {
+//
+//    return S3Client.builder().build();
+//  }
+
 }
