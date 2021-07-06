@@ -1,0 +1,44 @@
+version: '3.3'
+
+services:
+  s3-storage:
+    container_name: s3-storage
+    image: localstack/localstack-full
+    ports:
+      - "4566-4599:4566-4599"
+    environment:
+      - SERVICES=s3
+      - DEBUG=1
+      - USE_LIGHT_IMAGE=1
+      - DATA_DIR=/tmp/localstack/data
+#      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "./s3_storage_docker/.localstack:/tmp/localstack"
+#      - "/var/run/docker.sock:/var/run/docker.sock"
+
+  s3-aws-cli:
+    container_name: s3-aws-cli
+    restart: on-failure
+    build:
+      context: ./s3_storage_docker/
+      dockerfile: Dockerfile_aws_cli
+    command: "./awscli_script.sh"
+    depends_on:
+      - s3-storage
+    links:
+      - s3-storage
+
+  s3_storage-ui:
+    container_name: s3_storage-ui
+    image: gosuper/localstack-s3-ui
+    ports:
+      - "9000:9000"
+    environment:
+      - API_REQ_FILE_PATH=/tmp/localstack/data/recorded_api_calls.json
+      - PORT=9000
+    volumes:
+      - "./s3_storage_docker/.localstack:/tmp/localstack"
+    depends_on:
+      - s3-storage
+    links:
+      - s3-storage

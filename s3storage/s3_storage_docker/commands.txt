@@ -1,0 +1,12 @@
+
+#create bucket
+aws --endpoint-url=http://localhost:4566 s3 mb s3://test1
+
+# upload files to bucket from local folder
+aws --endpoint-url=http://localhost:4566 s3 sync ./s3_files s3://test1
+
+#delete bucket
+aws --endpoint-url=http://localhost:4566 s3 rb s3://test1
+
+#delete all content files in bucket
+aws --endpoint-url=http://localhost:4566 s3 rm s3://test1 --recursive
