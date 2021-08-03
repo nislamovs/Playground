@@ -25,7 +25,7 @@ public class TestController {
     return ok("Test ok!");
   }
 
-  public ResponseEntity fallbackZZ(Throwable t) {
+  private ResponseEntity fallbackZZ(Throwable t) {
     System.out.println("in fallback");
     return new ResponseEntity("Too much requests!", HttpStatus.SERVICE_UNAVAILABLE);
   }
