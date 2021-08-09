@@ -1,0 +1,76 @@
+plugins {
+	id 'application'
+	id "io.freefair.lombok" version "4.1.6"
+
+	id 'org.springframework.boot' version '2.5.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+
+	id 'com.palantir.docker' version '0.25.0'
+	id 'com.palantir.docker-run' version '0.25.0'
+	id 'java'
+}
+
+group = 'com.example'
+version = '1.0.0'
+sourceCompatibility = JavaVersion.VERSION_15
+targetCompatibility = JavaVersion.VERSION_15
+
+apply plugin: 'org.springframework.boot'
+
+wrapper {
+	distributionType = Wrapper.DistributionType.ALL
+	gradleVersion = '7.1.1'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+mainClassName = 'SlackConsumerApplication'
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	implementation("com.squareup.okhttp3:okhttp:4.2.2")
+
+	implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+	implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+	implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+bootJar {
+	archiveBaseName = 'slackConsumerApplication'
+	archiveVersion =  '1.0.0'
+}
+
+task unpack(type: Copy) {
+	dependsOn bootJar
+	from(zipTree("build/libs/slackConsumerApplication-1.0.0.jar"))
+	into("build/dependency")
+}
+
+docker {
+	name "slackconsumerapplication"
+	copySpec.from(tasks.unpack.outputs).into("dependency")
+	buildArgs(['DEPENDENCY': "dependency"])
+}
+
+dockerRun {
+	name  "slackConsumerApplication"
+	image "slackConsumerApplication-1.0.0"
+	clean true
+}

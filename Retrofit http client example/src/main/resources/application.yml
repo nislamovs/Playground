@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+slack:
+  baseUrl: https://hooks.slack.com/services/
+  token: ${SLACK_URL}
