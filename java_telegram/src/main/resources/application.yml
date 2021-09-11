@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+telegram:
+  token: ${TELEGRAM_TOKEN}
+  chatId: ${TELEGRAM_CHATID}

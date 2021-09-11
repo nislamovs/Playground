@@ -1,0 +1,19 @@
+#all delays in milliseconds
+slackclient.period: 100
+slackclient.maxPeriod: 1000
+slackclient.maxAttempts: 5
+slackclient.url: http://localhost:9561
+slackclient.apiKey: changeme
+
+feign.client.config.slackClient1.connect-timeout: 6000
+
+logging:
+  level:
+    WireMock: TRACE
+
+    wiremock:
+      org: TRACE
+    com:
+      github:
+        tomakehurst:
+          wiremock: TRACE

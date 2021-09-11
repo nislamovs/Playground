@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+application:
+  developer: Nizami Islamovs
+  version: v 1.0.0
+  deploymentdate: 2018-09-11 21:15:29
+  support.email: nizamiislamovs@gmail.com
+
+#all delays in milliseconds
+slackclient.period: 100
+slackclient.maxPeriod: 1000
+slackclient.maxAttempts: 5
+slackclient.url: ${SLACK_URL}
+
+feign.client.config.slackClient1.connect-timeout: 6000
