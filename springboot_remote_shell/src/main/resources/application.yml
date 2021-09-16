@@ -1,0 +1,26 @@
+
+logging.level.sshd.shell: DEBUG
+#logging.level.org.apache.sshd: DEBUG
+logging.file.name: sshd.log
+
+management.endpoint.shutdown.enabled: true
+
+spring.jmx.enabled: true
+
+sshd.shell.port: 2000
+sshd.shell.enabled: true
+
+sshd.shell.auth.authType: AUTH_PROVIDER
+sshd.shell.password: admin
+sshd.shell.user: admin
+sshd.shell.host: 127.0.0.1		#Allowed IP addresses
+
+sshd.filetransfer.enabled: true
+
+sshd.shell.text.color: BLUE
+sshd.shell.prompt.color: RED
+sshd.shell.prompt.title: server
+
+
+#to connect:
+#ssh -p 2000 admin@localhost
