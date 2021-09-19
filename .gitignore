@@ -52,3 +52,5 @@ Thumbs.db
 ./gradlew
 ./gradlew.bat
 
+sshd.log
+hostKey.ser
