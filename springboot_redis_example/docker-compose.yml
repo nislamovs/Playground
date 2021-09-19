@@ -1,0 +1,41 @@
+version: '3.2'
+
+services:
+
+  redis:
+    image: "redis:alpine"
+    command: redis-server #--requirepass passwd1234
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./volume/redis-data:/var/lib/redis
+      - ./volume/redis.conf:/usr/local/etc/redis/redis.conf
+    environment:
+      - REDIS_REPLICATION_MODE=master
+
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - "8081:8081"
+
+  #Redis web UI
+  rebrow:
+    image: "marian/rebrow"
+    ports:
+      - "5001:5001"
+    links:
+      - "redis:myredis"
+
+#  slack_consumer:
+#    container_name: "app"
+#    hostname: localhost
+#    build:
+#      context: ./
+#      dockerfile: Dockerfile
+#    ports:
+#      - "8080:8080"
