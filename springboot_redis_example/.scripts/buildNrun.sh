@@ -15,7 +15,6 @@ cd .. ;
 
 
 #Build docker image
-cd msgProducer ;
 ./gradlew clean build docker -x test;
 cd - ;
 

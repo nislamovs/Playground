@@ -2,8 +2,8 @@ plugins {
 	id 'application'
 	id 'org.springframework.boot' version '2.5.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-//	id 'com.palantir.docker' version '0.25.0'
-//	id 'com.palantir.docker-run' version '0.25.0'
+	id 'com.palantir.docker' version '0.25.0'
+	id 'com.palantir.docker-run' version '0.25.0'
 	id 'java'
 }
 
@@ -48,28 +48,28 @@ test {
 	useJUnitPlatform()
 }
 
-//bootJar {
-//	archiveBaseName = 'redisExample'
-//	archiveVersion =  '1.0.0'
-//}
-//
-//task unpack(type: Copy) {
-//	dependsOn bootJar
-//	from(zipTree("build/libs/msgProducer-1.0.0.jar"))
-//	into("build/dependency")
-//}
+bootJar {
+	archiveBaseName = 'redisExample'
+	archiveVersion =  '1.0.0'
+}
 
-//docker {
-//	name "msg_producer"
-////	files "build/libs/${bootJar.archiveFileName.get()}"
-////	buildArgs([JAR_FILE: bootJar.archiveFileName.get()])
-//	copySpec.from(tasks.unpack.outputs).into("dependency")
-//	buildArgs(['DEPENDENCY': "dependency"])
-//}
-//
-//dockerRun {
-//	name  "redisExample"
-//	image "redisExample-1.0.0"
-//	ports '8080:8080'
-//	clean true
-//}
+task unpack(type: Copy) {
+	dependsOn bootJar
+	from(zipTree("build/libs/redisExample-1.0.0.jar"))
+	into("build/dependency")
+}
+
+docker {
+	name "msg_producer"
+//	files "build/libs/${bootJar.archiveFileName.get()}"
+//	buildArgs([JAR_FILE: bootJar.archiveFileName.get()])
+	copySpec.from(tasks.unpack.outputs).into("dependency")
+	buildArgs(['DEPENDENCY': "dependency"])
+}
+
+dockerRun {
+	name  "redisExample"
+	image "redisExample-1.0.0"
+	ports '8080:8080'
+	clean true
+}
